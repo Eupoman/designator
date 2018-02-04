@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block content %}
+	<!-- Main container -->
+
+<body class="thesaas-sections-split">
+	<main class="main-content">
+
+
+		<section class="section py-150" style="background-image: url({% static 'img/bg-gift.jpg' %})" data-overlay="5">
+			<div class="container">
+				<h2 class="text-white text-center">Hi {{request.user.first_name}}<a href="{% url 'logout'%}">logout</a></h2>
+				<p class="text-white text-center opacity-70 lead">We waited until we could do it right. Then we did! Instead of creating a carbon copy.</p>
+
+			</div>
+        </section>
+        <section class="section py-150">
+	        <img src="{% static 'img/crypto.jpg'%}" style="margin-left: 20%;" />
+
+	        <h3> Avaliable cryptocurrency: $100000 </h3>
+	        <button class="btn btn-lg btn-round btn-success"> <a href="{% url 'training' %}" style="color: #fff">Disbursement</a></button>
+	    </section>
+    </main>
+</body>
+
+{% endblock %}

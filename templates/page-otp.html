@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block content %}
+  <body class="mh-fullscreen bg-img center-vh p-20" style="background-image: url(assets/img/bg-girl.jpg);">
+
+
+
+
+    <div class="card card-shadowed p-50 w-400 mb-0" style="max-width: 100%">
+      <h5 class="text-uppercase text-center">ENTER OTP</h5>
+      <br><br>
+
+      <!--<form class="form-type-material" action ="#" method="post">-->
+
+
+<form method="post">
+        {% csrf_token %}
+<div class="otp-wrap"  >
+
+        <div class="form-group ">
+            {% render_field form.mobile_number class="form-control" placeholder="Mobile number" %}
+          <!--<input type="number" class="form-control" placeholder="Mobile number">-->
+        </div>
+
+         <div align="center" class="form-group ">
+         <button class="btn btn-primary g-otp" type="button" onClick="send_pin()"><i class="icon-share"></i> Get PIN</button>
+<!--<button class="btn btn-primary g-otp"> Generate OTP</button>-->
+
+         </div>
+
+
+      </div>
+
+
+      <div class="otp-pin"  >
+
+              <div class="form-group ">
+                  {% render_field form.pin class="form-control" placeholder="PIN" %}
+
+                  <!--<input type="number" class="form-control" placeholder="PIN">-->
+              </div>
+
+               <div align="center" class="form-group ">
+      <button class="btn btn-primary g-pin"> Submit</button>
+
+               </div>
+
+
+            </div>
+
+
+
+
+        <br>
+
+      </form>
+
+      <hr class="w-30">
+
+
+    </div>
+    <script>
+        function send_pin() {
+        $.ajax({
+                url: "{% url 'ajax_send_pin' %}",
+                type: "POST",
+                data: { mobile_number:  $("#id_mobile_number").val(), 'csrfmiddlewaretoken': '{{ csrf_token }}', },
+            })
+            .done(function(data) {
+                alert("PIN sent via SMS!");
+                console.log(data)
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                alert(errorThrown + ' : ' + jqXHR.responseText);
+            });
+}
+    </script>
+  </body>
+{% endblock %}

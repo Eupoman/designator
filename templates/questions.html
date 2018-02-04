@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body class="mh-fullscreen bg-img center-vh p-20" style="background-image: url({% static 'img/bg-girl.jpg' %});">
+	<div class="blank-page">
+		<h4>Sarah's trust requests the funds be used for education, travel, and entrepreneurial purposes. If you were left $10,000 USD in this trust, what reason would you give to justify disbursement?</h4>
+		<form method="POST">
+		{% csrf_token %}
+					<div class="form-group">
+					  <!-- <label for="comment">Comment:</label> -->
+					  <textarea class="form-control" id="reason" name="reason"></textarea>
+					</div> 
+		    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+	    </form>
+	    <div class="message" style="color: red;">{{ message }}</div>
+	</div>
+</body>
+{% endblock %}

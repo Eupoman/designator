@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block content %}
+	<!-- Main container -->
+<body class="thesaas-sections-split">
+	<main class="main-content">
+
+
+
+		<section class="section py-150" style="background-image: url({% static 'img/bg-gift.jpg' %})" data-overlay="5">
+			<div class="container">
+				<h2 class="text-white text-center">Sign Up</h2>
+				<p class="text-white text-center opacity-70 lead">We waited until we could do it right. Then we did! Instead of creating a carbon copy.</p>
+				<br>
+				<form action="/signup/" method="post" class="section-dialog section-dialog-sm bg-gray py-40">
+					{% csrf_token %}
+					<div class="form-group input-group input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-user"></i></span>
+						{% render_field form.first_name class="form-control" placeholder="Name" %}
+						<!--<input type="text" class="form-control" placeholder="Name">-->
+					</div>
+					<div class="form-group input-group input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+						{% render_field form.email class="form-control" placeholder="Email" %}
+						<!--<input type="text" class="form-control" placeholder="Email">-->
+					</div>
+					<div class="form-group input-group input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+						{% render_field form.phone_number class="form-control" placeholder="Phone Number" %}
+						<!--<input type="text" class="form-control" placeholder="Email">-->
+					</div>
+					<div class="form-group input-group input-group-lg">
+						<span class="input-group-addon"><i class="fa fa-key"></i></span>
+						{% render_field form.password1 class="form-control" placeholder="Password" %}
+						<!--<input type="password" class="form-control" placeholder="Password">-->
+					</div>
+					<button class="btn btn-block btn-lg btn-success">Get started</button>
+						<p class="small">or use your <a href="{% url 'social:begin' 'twitter' %}">Twitter</a> |
+							<a href="{% url 'social:begin' 'linkedin' %}">Linked In</a>
+						</p>
+				</form>
+			</div>
+		</section>
+
+
+	</main>
+	<!-- END Main container -->
+</body>
+{% endblock %}

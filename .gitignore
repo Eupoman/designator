@@ -1,0 +1,7 @@
+*.pyc
+*.sqlite3
+*.db
+docs/*
+*.diff
+.DS_Store
+

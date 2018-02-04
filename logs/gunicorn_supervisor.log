@@ -1,0 +1,3380 @@
+Starting cryptocurrency_app as ubuntu
+[2017-11-14 09:48:39 +0000] [25762] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f5d1d07c668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f5d1d07c398>
+  pre_fork: <function pre_fork at 0x7f5d1d07c500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f5d1d07c230>
+  pre_exec: <function pre_exec at 0x7f5d1d07cc08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f5d1d081488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f5d1d07cd70>
+  post_request: <function post_request at 0x7f5d1d07ce60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f5d1d07c938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f5d1d07c0c8>
+  post_worker_init: <function post_worker_init at 0x7f5d1d07c7d0>
+  child_exit: <function child_exit at 0x7f5d1d081050>
+  worker_exit: <function worker_exit at 0x7f5d1d0811b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f5d1d07caa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f5d1d081320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-14 09:48:39 +0000] [25762] [INFO] Starting gunicorn 19.7.1
+[2017-11-14 09:48:39 +0000] [25762] [DEBUG] Arbiter booted
+[2017-11-14 09:48:39 +0000] [25762] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (25762)
+[2017-11-14 09:48:39 +0000] [25762] [INFO] Using worker: sync
+[2017-11-14 09:48:39 +0000] [25771] [INFO] Booting worker with pid: 25771
+[2017-11-14 09:48:39 +0000] [25774] [INFO] Booting worker with pid: 25774
+[2017-11-14 09:48:39 +0000] [25777] [INFO] Booting worker with pid: 25777
+[2017-11-14 09:48:39 +0000] [25762] [DEBUG] 3 workers
+[2017-11-14 10:09:23 +0000] [25774] [DEBUG] GET /
+[2017-11-14 10:09:24 +0000] [25777] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 10:09:31 +0000] [25774] [DEBUG] GET /admin
+[2017-11-14 10:09:31 +0000] [25771] [DEBUG] GET /admin/
+[2017-11-14 10:09:31 +0000] [25774] [DEBUG] GET /admin/login/
+[2017-11-14 10:13:07 +0000] [25774] [DEBUG] GET /admin/login/
+[2017-11-14 10:13:10 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 10:13:15 +0000] [25777] [DEBUG] GET /admin/
+[2017-11-14 10:13:15 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 10:13:22 +0000] [25777] [DEBUG] GET /admin/login/
+[2017-11-14 10:13:26 +0000] [25771] [DEBUG] GET /
+[2017-11-14 10:13:31 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 10:13:31 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 10:14:16 +0000] [25777] [DEBUG] GET /admin/login/
+[2017-11-14 10:14:20 +0000] [25771] [DEBUG] GET /
+[2017-11-14 10:14:24 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 10:14:25 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 10:14:25 +0000] [25774] [DEBUG] GET /admin
+[2017-11-14 10:16:31 +0000] [25774] [DEBUG] GET /admin/login/
+[2017-11-14 10:17:25 +0000] [25774] [DEBUG] POST /admin/login/
+[2017-11-14 10:17:30 +0000] [25777] [DEBUG] POST /admin/login/
+[2017-11-14 10:17:30 +0000] [25771] [DEBUG] GET /admin/
+[2017-11-14 10:17:34 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:17:34 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:17:37 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 10:17:39 +0000] [25771] [DEBUG] GET /admin/auth/user/
+[2017-11-14 10:17:39 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:17:42 +0000] [25777] [DEBUG] GET /admin/auth/
+[2017-11-14 10:17:45 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 10:17:46 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:17:46 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:17:48 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog/add/
+[2017-11-14 10:17:48 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:17:55 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:17:57 +0000] [25774] [DEBUG] GET /admin/django_cron/
+[2017-11-14 10:37:19 +0000] [25774] [DEBUG] GET /
+[2017-11-14 10:37:20 +0000] [25771] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 10:37:22 +0000] [25777] [DEBUG] GET /a
+Not Found: /a
+[2017-11-14 10:37:28 +0000] [25774] [DEBUG] GET /admin
+[2017-11-14 10:37:28 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 10:37:28 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 10:37:33 +0000] [25774] [DEBUG] POST /admin/login/
+[2017-11-14 10:37:33 +0000] [25771] [DEBUG] GET /admin/
+[2017-11-14 10:49:53 +0000] [25771] [DEBUG] GET /admin/django_cron/
+[2017-11-14 10:49:55 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:49:55 +0000] [25777] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:49:57 +0000] [25771] [DEBUG] GET /admin/django_cron/
+[2017-11-14 10:49:59 +0000] [25777] [DEBUG] GET /admin/
+[2017-11-14 10:50:42 +0000] [25774] [DEBUG] GET /admin
+[2017-11-14 10:50:42 +0000] [25771] [DEBUG] GET /admin/
+[2017-11-14 10:50:42 +0000] [25777] [DEBUG] GET /admin/login/
+[2017-11-14 10:50:50 +0000] [25771] [DEBUG] POST /admin/login/
+[2017-11-14 10:50:50 +0000] [25777] [DEBUG] GET /admin/
+[2017-11-14 10:50:52 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:50:52 +0000] [25777] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:50:56 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:50:57 +0000] [25777] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:50:57 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog
+[2017-11-14 10:50:57 +0000] [25774] [DEBUG] GET /admin/jsi18n
+[2017-11-14 10:51:29 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:51:30 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:51:54 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:51:54 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:51:55 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:51:55 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:52:07 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:52:07 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:52:54 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:52:55 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:52:55 +0000] [25771] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:52:56 +0000] [25774] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:54:52 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:54:52 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:14 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:14 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:15 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:15 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:49 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:50 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:50 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:50 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:51 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:51 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:55:53 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:55:53 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:56:07 +0000] [25777] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:56:07 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 10:57:05 +0000] [25774] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 10:57:05 +0000] [25771] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 11:35:19 +0000] [25777] [DEBUG] GET /
+[2017-11-14 11:35:23 +0000] [25771] [DEBUG] GET /admin/
+[2017-11-14 11:35:23 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 11:52:34 +0000] [25774] [DEBUG] GET /admin/
+[2017-11-14 11:52:34 +0000] [25771] [DEBUG] GET /admin/login/
+[2017-11-14 11:52:34 +0000] [25774] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 11:52:41 +0000] [25777] [DEBUG] GET /admin/
+[2017-11-14 11:52:41 +0000] [25777] [DEBUG] GET /admin/login/
+[2017-11-14 11:52:41 +0000] [25774] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 11:53:02 +0000] [25771] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-14 11:53:02 +0000] [25777] [DEBUG] GET /admin/
+[2017-11-14 11:53:02 +0000] [25774] [DEBUG] GET /admin/login/
+[2017-11-14 11:53:03 +0000] [25777] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 12:05:22 +0000] [25762] [INFO] Handling signal: term
+[2017-11-14 12:05:22 +0000] [25777] [INFO] Worker exiting (pid: 25777)
+[2017-11-14 12:05:22 +0000] [25771] [INFO] Worker exiting (pid: 25771)
+[2017-11-14 12:05:22 +0000] [25774] [INFO] Worker exiting (pid: 25774)
+[2017-11-14 12:05:22 +0000] [25762] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-14 12:05:24 +0000] [27154] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f95f0447668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f95f0447398>
+  pre_fork: <function pre_fork at 0x7f95f0447500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f95f0447230>
+  pre_exec: <function pre_exec at 0x7f95f0447c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f95f044b488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f95f0447d70>
+  post_request: <function post_request at 0x7f95f0447e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f95f0447938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f95f04470c8>
+  post_worker_init: <function post_worker_init at 0x7f95f04477d0>
+  child_exit: <function child_exit at 0x7f95f044b050>
+  worker_exit: <function worker_exit at 0x7f95f044b1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f95f0447aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f95f044b320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-14 12:05:24 +0000] [27154] [INFO] Starting gunicorn 19.7.1
+[2017-11-14 12:05:24 +0000] [27154] [DEBUG] Arbiter booted
+[2017-11-14 12:05:24 +0000] [27154] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (27154)
+[2017-11-14 12:05:24 +0000] [27154] [INFO] Using worker: sync
+[2017-11-14 12:05:24 +0000] [27163] [INFO] Booting worker with pid: 27163
+[2017-11-14 12:05:24 +0000] [27166] [INFO] Booting worker with pid: 27166
+[2017-11-14 12:05:24 +0000] [27154] [DEBUG] 3 workers
+[2017-11-14 12:05:24 +0000] [27169] [INFO] Booting worker with pid: 27169
+[2017-11-14 12:05:30 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:05:31 +0000] [27169] [DEBUG] GET /admin/login/
+[2017-11-14 12:05:36 +0000] [27166] [DEBUG] POST /admin/login/
+[2017-11-14 12:05:37 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:05:37 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:38 +0000] [27163] [DEBUG] GET /admin/django_cron/
+[2017-11-14 12:05:39 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:05:40 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:41 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/2/change/
+[2017-11-14 12:05:41 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:44 +0000] [27163] [DEBUG] GET /admin/django_cron/
+[2017-11-14 12:05:45 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:05:48 +0000] [27163] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-14 12:05:49 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:50 +0000] [27169] [DEBUG] GET /admin/persona/
+[2017-11-14 12:05:51 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:05:51 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:52 +0000] [27163] [DEBUG] GET /admin/persona/
+[2017-11-14 12:05:53 +0000] [27169] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-14 12:05:53 +0000] [27163] [DEBUG] GET /admin/persona
+[2017-11-14 12:05:53 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:54 +0000] [27163] [DEBUG] GET /
+[2017-11-14 12:05:55 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:05:55 +0000] [27163] [DEBUG] GET /admin/persona/benefactor
+[2017-11-14 12:05:56 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:05:56 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:57 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/2/change/
+[2017-11-14 12:05:57 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:05:59 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:06:02 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:06:02 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:06:03 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/add/
+[2017-11-14 12:06:03 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:06:08 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:06:39 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:06:41 +0000] [27163] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:06:42 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:06:43 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:06:43 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:06:45 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:06:46 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:06:47 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:06:48 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:06:48 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:06:49 +0000] [27169] [DEBUG] GET /admin/persona/userstatus
+[2017-11-14 12:06:49 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:06:50 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:06:51 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:07:13 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:07:17 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:07:17 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:18 +0000] [27169] [DEBUG] GET /admin/persona/
+[2017-11-14 12:07:20 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:07:21 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:21 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:22 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:23 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:24 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:24 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:25 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:25 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:26 +0000] [27169] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:26 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:07:58 +0000] [27166] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:07:58 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:08:00 +0000] [27169] [DEBUG] GET /admin/django_cron/
+[2017-11-14 12:08:01 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:08:02 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:08:02 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:08:03 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 12:08:04 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:08:04 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/1/change
+[2017-11-14 12:08:09 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:10:10 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:10:10 +0000] [27166] [DEBUG] GET /admin/login/
+[2017-11-14 12:10:11 +0000] [27169] [DEBUG] GET /admin/login
+[2017-11-14 12:10:16 +0000] [27163] [DEBUG] POST /admin/login/
+[2017-11-14 12:10:16 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:10:19 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:10:19 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:10:21 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 12:10:21 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:10:24 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:10:26 +0000] [27169] [DEBUG] GET /admin/persona/
+[2017-11-14 12:10:29 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:10:33 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:10:33 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:10:37 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:10:42 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:10:42 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:10:43 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 12:10:43 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:10:49 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:10:51 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:26:06 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:26:06 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:26:09 +0000] [27169] [DEBUG] GET /
+[2017-11-14 12:26:13 +0000] [27166] [DEBUG] GET /ad
+Not Found: /ad
+[2017-11-14 12:26:15 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:26:38 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:26:46 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:26:46 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:26:48 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:27:04 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:27:04 +0000] [27163] [DEBUG] GET /admin/login/
+[2017-11-14 12:27:05 +0000] [27169] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-14 12:27:05 +0000] [27166] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 12:27:06 +0000] [27163] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-14 12:27:12 +0000] [27169] [DEBUG] POST /admin/login/
+[2017-11-14 12:27:12 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:27:28 +0000] [27169] [DEBUG] GET /admin/auth/user/
+[2017-11-14 12:27:28 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:27:33 +0000] [27166] [DEBUG] GET /admin/auth/
+[2017-11-14 12:27:34 +0000] [27163] [DEBUG] GET /admin/auth/user/
+[2017-11-14 12:27:35 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:27:37 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:27:39 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:27:40 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:27:42 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 12:27:42 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:30:45 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 12:44:25 +0000] [27169] [DEBUG] GET /admin/login/
+[2017-11-14 12:44:27 +0000] [27166] [DEBUG] GET /admin/login/
+[2017-11-14 12:44:59 +0000] [27169] [DEBUG] POST /admin/login/
+[2017-11-14 12:44:59 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 12:45:35 +0000] [27169] [DEBUG] GET /
+[2017-11-14 12:45:41 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:45:46 +0000] [27169] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 12:45:47 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:45:53 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:57:03 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 12:57:05 +0000] [27163] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-14 12:57:05 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 12:57:10 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 13:14:39 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 13:14:40 +0000] [27163] [DEBUG] GET /admin/login/
+[2017-11-14 13:14:40 +0000] [27166] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 13:14:42 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 13:14:43 +0000] [27169] [DEBUG] GET /admin/login/
+[2017-11-14 13:14:44 +0000] [27166] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-14 13:14:49 +0000] [27163] [DEBUG] POST /admin/login/
+[2017-11-14 13:14:49 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 13:15:00 +0000] [27163] [DEBUG] GET /
+[2017-11-14 13:15:08 +0000] [27169] [DEBUG] GET /admin/
+[2017-11-14 13:15:22 +0000] [27163] [DEBUG] GET /admin/auth/user/
+[2017-11-14 13:15:22 +0000] [27166] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 13:15:26 +0000] [27169] [DEBUG] GET /admin/auth/user/1/change/
+[2017-11-14 13:15:26 +0000] [27163] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 13:15:36 +0000] [27166] [DEBUG] GET /admin/auth/user/
+[2017-11-14 13:15:37 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 13:15:43 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-14 13:15:44 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 13:15:45 +0000] [27163] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 13:15:46 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 13:16:24 +0000] [27166] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-14 13:16:24 +0000] [27169] [DEBUG] GET /admin/jsi18n/
+[2017-11-14 13:17:39 +0000] [27169] [DEBUG] GET /admin/persona/
+[2017-11-14 13:17:42 +0000] [27166] [DEBUG] GET /admin/
+[2017-11-14 15:14:50 +0000] [27166] [DEBUG] GET /
+[2017-11-14 16:01:45 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 17:52:34 +0000] [27166] [DEBUG] GET /
+[2017-11-14 19:15:13 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-14 21:05:56 +0000] [27163] [DEBUG] GET /hndUnblock.cgi
+Not Found: /hndUnblock.cgi
+[2017-11-14 21:06:00 +0000] [27169] [DEBUG] GET /tmUnblock.cgi
+Not Found: /tmUnblock.cgi
+[2017-11-14 21:06:04 +0000] [27166] [DEBUG] GET /moo
+Not Found: /moo
+[2017-11-14 21:06:07 +0000] [27163] [DEBUG] GET /
+[2017-11-14 21:06:11 +0000] [27169] [DEBUG] POST /getcfg.php
+Not Found: /getcfg.php
+[2017-11-14 21:06:18 +0000] [27166] [DEBUG] POST /getcfg.php
+Not Found: /getcfg.php
+[2017-11-14 23:04:53 +0000] [27169] [DEBUG] GET /
+[2017-11-15 06:13:40 +0000] [27163] [DEBUG] GET /invoker/JMXInvokerServlet
+Not Found: /invoker/JMXInvokerServlet
+[2017-11-15 06:42:16 +0000] [27163] [DEBUG] GET /admin/
+[2017-11-15 06:42:17 +0000] [27166] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 06:42:44 +0000] [27169] [DEBUG] GET /
+[2017-11-15 06:51:29 +0000] [27154] [INFO] Handling signal: term
+[2017-11-15 06:51:29 +0000] [27169] [INFO] Worker exiting (pid: 27169)
+[2017-11-15 06:51:29 +0000] [27163] [INFO] Worker exiting (pid: 27163)
+[2017-11-15 06:51:29 +0000] [27166] [INFO] Worker exiting (pid: 27166)
+[2017-11-15 06:51:29 +0000] [27154] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-15 06:51:29 +0000] [29149] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fb81aac3668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fb81aac3398>
+  pre_fork: <function pre_fork at 0x7fb81aac3500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fb81aac3230>
+  pre_exec: <function pre_exec at 0x7fb81aac3c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fb81aac7488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fb81aac3d70>
+  post_request: <function post_request at 0x7fb81aac3e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fb81aac3938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fb81aac30c8>
+  post_worker_init: <function post_worker_init at 0x7fb81aac37d0>
+  child_exit: <function child_exit at 0x7fb81aac7050>
+  worker_exit: <function worker_exit at 0x7fb81aac71b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fb81aac3aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fb81aac7320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-15 06:51:29 +0000] [29149] [INFO] Starting gunicorn 19.7.1
+[2017-11-15 06:51:29 +0000] [29149] [DEBUG] Arbiter booted
+[2017-11-15 06:51:29 +0000] [29149] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (29149)
+[2017-11-15 06:51:29 +0000] [29149] [INFO] Using worker: sync
+[2017-11-15 06:51:29 +0000] [29158] [INFO] Booting worker with pid: 29158
+[2017-11-15 06:51:30 +0000] [29161] [INFO] Booting worker with pid: 29161
+[2017-11-15 06:51:30 +0000] [29162] [INFO] Booting worker with pid: 29162
+[2017-11-15 06:51:30 +0000] [29149] [DEBUG] 3 workers
+[2017-11-15 06:51:33 +0000] [29161] [DEBUG] GET /
+[2017-11-15 07:12:44 +0000] [29161] [DEBUG] GET /
+[2017-11-15 07:14:58 +0000] [29162] [DEBUG] GET /
+[2017-11-15 07:14:58 +0000] [29158] [DEBUG] GET /
+[2017-11-15 07:15:06 +0000] [29161] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 07:15:07 +0000] [29162] [DEBUG] GET /
+[2017-11-15 07:15:10 +0000] [29158] [DEBUG] GET /
+[2017-11-15 07:16:40 +0000] [29162] [DEBUG] GET /
+[2017-11-15 07:16:45 +0000] [29158] [DEBUG] GET /
+[2017-11-15 07:16:47 +0000] [29161] [DEBUG] GET /
+[2017-11-15 07:16:52 +0000] [29162] [DEBUG] GET /admin
+[2017-11-15 07:16:52 +0000] [29158] [DEBUG] GET /admin/
+[2017-11-15 07:16:52 +0000] [29162] [DEBUG] GET /admin/login/
+[2017-11-15 09:15:00 +0000] [29162] [DEBUG] GET /
+[2017-11-15 09:31:45 +0000] [29158] [DEBUG] GET /
+[2017-11-15 11:21:12 +0000] [29162] [DEBUG] GET /
+[2017-11-15 11:21:12 +0000] [29158] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 11:21:23 +0000] [29161] [DEBUG] GET /
+[2017-11-15 11:21:49 +0000] [29158] [DEBUG] GET /
+[2017-11-15 11:32:51 +0000] [29162] [DEBUG] GET /
+[2017-11-15 11:32:51 +0000] [29158] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 11:36:20 +0000] [29149] [INFO] Handling signal: term
+[2017-11-15 11:36:20 +0000] [29161] [INFO] Worker exiting (pid: 29161)
+[2017-11-15 11:36:20 +0000] [29162] [INFO] Worker exiting (pid: 29162)
+[2017-11-15 11:36:20 +0000] [29158] [INFO] Worker exiting (pid: 29158)
+[2017-11-15 11:36:20 +0000] [29149] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-15 11:36:21 +0000] [29471] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f59d63d4668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f59d63d4398>
+  pre_fork: <function pre_fork at 0x7f59d63d4500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f59d63d4230>
+  pre_exec: <function pre_exec at 0x7f59d63d4c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f59d63d8488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f59d63d4d70>
+  post_request: <function post_request at 0x7f59d63d4e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f59d63d4938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f59d63d40c8>
+  post_worker_init: <function post_worker_init at 0x7f59d63d47d0>
+  child_exit: <function child_exit at 0x7f59d63d8050>
+  worker_exit: <function worker_exit at 0x7f59d63d81b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f59d63d4aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f59d63d8320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-15 11:36:21 +0000] [29471] [INFO] Starting gunicorn 19.7.1
+[2017-11-15 11:36:21 +0000] [29471] [DEBUG] Arbiter booted
+[2017-11-15 11:36:21 +0000] [29471] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (29471)
+[2017-11-15 11:36:21 +0000] [29471] [INFO] Using worker: sync
+[2017-11-15 11:36:21 +0000] [29480] [INFO] Booting worker with pid: 29480
+[2017-11-15 11:36:21 +0000] [29481] [INFO] Booting worker with pid: 29481
+[2017-11-15 11:36:21 +0000] [29484] [INFO] Booting worker with pid: 29484
+[2017-11-15 11:36:21 +0000] [29471] [DEBUG] 3 workers
+[2017-11-15 11:36:26 +0000] [29481] [DEBUG] GET /
+[2017-11-15 11:36:30 +0000] [29480] [DEBUG] GET /admin
+[2017-11-15 11:36:30 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 11:36:30 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-15 11:36:36 +0000] [29484] [DEBUG] POST /admin/login/
+[2017-11-15 11:36:36 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 11:36:40 +0000] [29484] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-15 11:36:41 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:44 +0000] [29481] [DEBUG] GET /admin/django_cron/
+[2017-11-15 11:36:46 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 11:36:47 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-15 11:36:47 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:49 +0000] [29484] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-15 11:36:49 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:51 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-15 11:36:52 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:52 +0000] [29484] [DEBUG] GET /admin/persona/
+[2017-11-15 11:36:54 +0000] [29480] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-15 11:36:54 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:56 +0000] [29481] [DEBUG] GET /admin/persona/
+[2017-11-15 11:36:57 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-15 11:36:57 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:36:58 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 11:37:00 +0000] [29481] [DEBUG] GET /admin/auth/user/
+[2017-11-15 11:37:00 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:37:02 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 11:37:09 +0000] [29480] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-15 11:37:10 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:37:19 +0000] [29481] [DEBUG] GET /admin/django_cron/cronjoblog/19/change/
+[2017-11-15 11:37:19 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:37:22 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 11:38:39 +0000] [29480] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-15 11:38:39 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:38:40 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-15 11:38:40 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 11:38:47 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 13:22:58 +0000] [29480] [DEBUG] GET /
+[2017-11-15 13:23:00 +0000] [29484] [DEBUG] GET /admin
+[2017-11-15 13:23:00 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-15 13:23:00 +0000] [29484] [DEBUG] GET /admin/login/
+[2017-11-15 13:23:25 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-15 13:23:26 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 13:23:35 +0000] [29481] [DEBUG] POST /admin/login/
+[2017-11-15 13:23:35 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 13:23:38 +0000] [29481] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-15 13:23:39 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 13:23:44 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 13:23:45 +0000] [29484] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-15 13:23:45 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 13:23:47 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-15 13:24:06 +0000] [29484] [DEBUG] GET /admin/login/
+[2017-11-15 13:24:06 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 13:24:21 +0000] [29481] [DEBUG] GET /admin/login/
+[2017-11-15 13:24:21 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 13:24:24 +0000] [29480] [DEBUG] GET /
+[2017-11-15 13:25:31 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-15 13:25:32 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 13:29:26 +0000] [29481] [DEBUG] GET /admin/login/
+[2017-11-15 13:29:26 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-15 13:47:08 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-15 13:57:17 +0000] [29484] [DEBUG] GET /
+[2017-11-15 14:20:26 +0000] [29484] [DEBUG] HEAD /
+[2017-11-15 14:20:26 +0000] [29484] [DEBUG] Ignoring EPIPE
+[2017-11-15 14:20:32 +0000] [29481] [DEBUG] HEAD /
+[2017-11-15 14:20:32 +0000] [29481] [DEBUG] Ignoring EPIPE
+[2017-11-15 14:20:32 +0000] [29480] [DEBUG] GET /
+[2017-11-15 14:20:32 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 14:20:41 +0000] [29481] [DEBUG] GET /
+[2017-11-15 14:20:41 +0000] [29480] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 15:13:30 +0000] [29484] [DEBUG] GET /
+[2017-11-15 16:14:41 +0000] [29484] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-15 16:14:41 +0000] [29480] [DEBUG] GET /
+[2017-11-15 16:14:41 +0000] [29481] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 16:14:47 +0000] [29480] [DEBUG] GET /admin/login
+[2017-11-15 16:14:47 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-15 16:14:53 +0000] [29481] [DEBUG] POST /admin/login/
+[2017-11-15 16:15:05 +0000] [29484] [DEBUG] POST /admin/login/
+[2017-11-15 16:15:06 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 16:15:32 +0000] [29484] [DEBUG] HEAD /
+[2017-11-15 16:15:32 +0000] [29484] [DEBUG] Ignoring EPIPE
+[2017-11-15 16:15:32 +0000] [29481] [DEBUG] GET /
+[2017-11-15 16:15:32 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 16:15:34 +0000] [29481] [DEBUG] HEAD /
+[2017-11-15 16:15:34 +0000] [29481] [DEBUG] Ignoring EPIPE
+[2017-11-15 16:17:03 +0000] [29480] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-15 16:17:03 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 16:17:08 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-15 16:17:09 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-15 16:17:09 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 16:17:14 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 16:17:15 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-15 16:17:15 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 16:17:17 +0000] [29484] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-15 16:17:18 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-15 16:51:15 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 16:51:19 +0000] [29484] [DEBUG] GET /admin/logout/
+[2017-11-15 16:51:25 +0000] [29481] [DEBUG] GET /
+[2017-11-15 17:23:50 +0000] [29480] [DEBUG] GET /
+[2017-11-15 19:24:42 +0000] [29481] [DEBUG] GET /admin
+[2017-11-15 19:24:42 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-15 19:24:42 +0000] [29484] [DEBUG] GET /admin/login/
+[2017-11-15 19:24:44 +0000] [29480] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-15 22:02:59 +0000] [29480] [DEBUG] GET /
+[2017-11-16 04:24:53 +0000] [29480] [DEBUG] GET /
+[2017-11-16 04:24:53 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 04:25:12 +0000] [29480] [DEBUG] GET /
+[2017-11-16 04:25:12 +0000] [29481] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 04:25:16 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 04:25:18 +0000] [29481] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-16 04:25:19 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:20 +0000] [29480] [DEBUG] GET /admin/persona/
+[2017-11-16 04:25:21 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 04:25:21 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:23 +0000] [29481] [DEBUG] GET /admin/persona/
+[2017-11-16 04:25:24 +0000] [29480] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 04:25:24 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:26 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 04:25:27 +0000] [29481] [DEBUG] GET /admin/auth/user/
+[2017-11-16 04:25:27 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:28 +0000] [29480] [DEBUG] GET /admin/auth/user
+[2017-11-16 04:25:29 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-16 04:25:32 +0000] [29480] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 04:25:33 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:34 +0000] [29484] [DEBUG] GET /admin/persona/
+[2017-11-16 04:25:38 +0000] [29481] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 04:25:38 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:40 +0000] [29480] [DEBUG] GET /admin/persona/benefactors/add/
+[2017-11-16 04:25:40 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:25:45 +0000] [29481] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-16 04:25:45 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:06 +0000] [29480] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-16 04:26:06 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:08 +0000] [29481] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-16 04:26:10 +0000] [29484] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-16 04:26:10 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:20 +0000] [29480] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-16 04:26:21 +0000] [29481] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-16 04:26:21 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:28 +0000] [29484] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-16 04:26:30 +0000] [29480] [DEBUG] POST /admin/persona/benefactors/add/
+[2017-11-16 04:26:30 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 04:26:31 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:40 +0000] [29481] [DEBUG] GET /admin/persona/
+[2017-11-16 04:26:41 +0000] [29480] [DEBUG] GET /admin/persona
+[2017-11-16 04:26:43 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 04:26:45 +0000] [29480] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 04:26:45 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:46 +0000] [29481] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-16 04:26:46 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:51 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-16 04:26:56 +0000] [29484] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 04:26:56 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:57 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-16 04:26:57 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:26:58 +0000] [29484] [DEBUG] GET /admin/jsi18n
+[2017-11-16 04:27:36 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 04:28:25 +0000] [29480] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-16 04:28:25 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:28:32 +0000] [29481] [DEBUG] GET /admin/persona/
+[2017-11-16 04:28:34 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 04:28:35 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:28:41 +0000] [29480] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-16 04:28:41 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:28:51 +0000] [29484] [DEBUG] GET /admin/persona/
+[2017-11-16 04:28:53 +0000] [29481] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-16 04:28:53 +0000] [29484] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 04:28:53 +0000] [29480] [DEBUG] GET /admin/persona/benefactor
+[2017-11-16 04:29:01 +0000] [29481] [DEBUG] GET /admin/persona/
+[2017-11-16 05:40:28 +0000] [29484] [DEBUG] HEAD /
+[2017-11-16 05:40:28 +0000] [29484] [DEBUG] Ignoring EPIPE
+[2017-11-16 05:40:33 +0000] [29480] [DEBUG] GET /
+[2017-11-16 05:40:33 +0000] [29481] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 05:40:39 +0000] [29484] [DEBUG] GET /admin
+[2017-11-16 05:40:39 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-16 05:40:39 +0000] [29484] [DEBUG] GET /admin/login/
+[2017-11-16 05:41:52 +0000] [29481] [DEBUG] POST /admin/login/
+[2017-11-16 05:41:52 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 05:42:02 +0000] [29481] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-16 05:42:02 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 05:42:06 +0000] [29484] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-16 05:42:06 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 10:23:37 +0000] [29480] [DEBUG] GET /admin/login/
+[2017-11-16 10:23:38 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 12:47:32 +0000] [29484] [DEBUG] GET /
+[2017-11-16 12:47:33 +0000] [29480] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 12:47:46 +0000] [29481] [DEBUG] GET /admin
+[2017-11-16 12:47:47 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 12:47:47 +0000] [29481] [DEBUG] GET /admin/login/
+[2017-11-16 12:48:10 +0000] [29484] [DEBUG] POST /admin/login/
+[2017-11-16 12:48:10 +0000] [29480] [DEBUG] GET /admin/
+[2017-11-16 12:48:29 +0000] [29484] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-16 12:48:30 +0000] [29480] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 12:48:35 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-16 12:48:38 +0000] [29480] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 12:48:38 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 12:48:40 +0000] [29484] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-16 12:48:40 +0000] [29481] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 12:49:05 +0000] [29480] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 12:49:07 +0000] [29481] [DEBUG] GET /admin/
+[2017-11-16 12:58:15 +0000] [29484] [DEBUG] GET /
+[2017-11-16 13:37:54 +0000] [29480] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-16 13:37:55 +0000] [29484] [DEBUG] GET /admin/
+[2017-11-16 13:37:55 +0000] [29481] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-16 13:37:55 +0000] [29484] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-16 13:37:55 +0000] [29481] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-16 13:57:31 +0000] [29481] [DEBUG] GET /
+[2017-11-16 13:57:31 +0000] [29484] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-16 13:57:31 +0000] [29480] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 14:00:05 +0000] [29480] [DEBUG] GET /
+[2017-11-16 14:00:06 +0000] [29484] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 14:00:14 +0000] [29481] [DEBUG] GET /
+[2017-11-16 14:00:14 +0000] [29480] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 14:08:52 +0000] [29471] [INFO] Handling signal: term
+[2017-11-16 14:08:52 +0000] [29480] [INFO] Worker exiting (pid: 29480)
+[2017-11-16 14:08:52 +0000] [29481] [INFO] Worker exiting (pid: 29481)
+[2017-11-16 14:08:52 +0000] [29484] [INFO] Worker exiting (pid: 29484)
+[2017-11-16 14:08:52 +0000] [29471] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-16 14:08:53 +0000] [427] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fc296676668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fc296676398>
+  pre_fork: <function pre_fork at 0x7fc296676500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fc296676230>
+  pre_exec: <function pre_exec at 0x7fc296676c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fc29667a488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fc296676d70>
+  post_request: <function post_request at 0x7fc296676e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fc296676938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fc2966760c8>
+  post_worker_init: <function post_worker_init at 0x7fc2966767d0>
+  child_exit: <function child_exit at 0x7fc29667a050>
+  worker_exit: <function worker_exit at 0x7fc29667a1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fc296676aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fc29667a320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-16 14:08:53 +0000] [427] [INFO] Starting gunicorn 19.7.1
+[2017-11-16 14:08:53 +0000] [427] [DEBUG] Arbiter booted
+[2017-11-16 14:08:53 +0000] [427] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (427)
+[2017-11-16 14:08:53 +0000] [427] [INFO] Using worker: sync
+[2017-11-16 14:08:53 +0000] [436] [INFO] Booting worker with pid: 436
+[2017-11-16 14:08:53 +0000] [439] [INFO] Booting worker with pid: 439
+[2017-11-16 14:08:53 +0000] [441] [INFO] Booting worker with pid: 441
+[2017-11-16 14:08:53 +0000] [427] [DEBUG] 3 workers
+[2017-11-16 14:09:08 +0000] [439] [DEBUG] GET /
+[2017-11-16 14:09:18 +0000] [441] [DEBUG] GET /login
+[2017-11-16 14:09:18 +0000] [436] [DEBUG] GET /login/
+[2017-11-16 14:10:41 +0000] [427] [INFO] Handling signal: term
+[2017-11-16 14:10:41 +0000] [441] [INFO] Worker exiting (pid: 441)
+[2017-11-16 14:10:41 +0000] [436] [INFO] Worker exiting (pid: 436)
+[2017-11-16 14:10:41 +0000] [439] [INFO] Worker exiting (pid: 439)
+[2017-11-16 14:10:41 +0000] [427] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-16 14:10:42 +0000] [473] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa40394a668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa40394a398>
+  pre_fork: <function pre_fork at 0x7fa40394a500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa40394a230>
+  pre_exec: <function pre_exec at 0x7fa40394ac08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fa40394e488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa40394ad70>
+  post_request: <function post_request at 0x7fa40394ae60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa40394a938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fa40394a0c8>
+  post_worker_init: <function post_worker_init at 0x7fa40394a7d0>
+  child_exit: <function child_exit at 0x7fa40394e050>
+  worker_exit: <function worker_exit at 0x7fa40394e1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fa40394aaa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa40394e320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-16 14:10:42 +0000] [473] [INFO] Starting gunicorn 19.7.1
+[2017-11-16 14:10:42 +0000] [473] [DEBUG] Arbiter booted
+[2017-11-16 14:10:42 +0000] [473] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (473)
+[2017-11-16 14:10:42 +0000] [473] [INFO] Using worker: sync
+[2017-11-16 14:10:42 +0000] [482] [INFO] Booting worker with pid: 482
+[2017-11-16 14:10:42 +0000] [485] [INFO] Booting worker with pid: 485
+[2017-11-16 14:10:42 +0000] [486] [INFO] Booting worker with pid: 486
+[2017-11-16 14:10:42 +0000] [473] [DEBUG] 3 workers
+[2017-11-16 14:10:53 +0000] [485] [DEBUG] GET /admin
+[2017-11-16 14:10:53 +0000] [486] [DEBUG] GET /admin/
+[2017-11-16 14:10:53 +0000] [485] [DEBUG] GET /admin/login/
+[2017-11-16 14:10:54 +0000] [486] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 14:11:00 +0000] [482] [DEBUG] POST /admin/login/
+[2017-11-16 14:11:00 +0000] [486] [DEBUG] GET /admin/
+[2017-11-16 14:11:11 +0000] [482] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-16 14:11:12 +0000] [485] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 14:11:24 +0000] [482] [DEBUG] GET /admin/
+[2017-11-16 14:11:25 +0000] [486] [DEBUG] GET /admin/auth/user/
+[2017-11-16 14:11:26 +0000] [482] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 14:11:34 +0000] [485] [DEBUG] GET /admin/auth/user/add/
+[2017-11-16 14:11:34 +0000] [482] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 14:12:21 +0000] [485] [DEBUG] POST /admin/auth/user/add/
+[2017-11-16 14:12:21 +0000] [482] [DEBUG] GET /admin/auth/user/2/change/
+[2017-11-16 14:12:21 +0000] [485] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 14:12:43 +0000] [486] [DEBUG] POST /admin/auth/user/2/change/
+[2017-11-16 14:12:43 +0000] [485] [DEBUG] GET /admin/auth/user/
+[2017-11-16 14:12:43 +0000] [486] [DEBUG] GET /admin/auth/user/2/change
+[2017-11-16 14:12:44 +0000] [482] [DEBUG] GET /admin/jsi18n/
+[2017-11-16 14:12:58 +0000] [486] [DEBUG] GET /
+[2017-11-16 14:13:08 +0000] [485] [DEBUG] GET /logout/
+[2017-11-16 14:13:10 +0000] [482] [DEBUG] GET /
+[2017-11-16 14:13:23 +0000] [485] [DEBUG] GET /login/
+[2017-11-16 14:13:45 +0000] [486] [DEBUG] POST /login/
+[2017-11-16 14:13:45 +0000] [482] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-16 14:13:46 +0000] [485] [DEBUG] GET /error
+Not Found: /error
+[2017-11-16 14:14:00 +0000] [486] [DEBUG] GET /training/
+[2017-11-16 14:14:12 +0000] [482] [DEBUG] POST /training/
+[2017-11-16 14:14:14 +0000] [485] [DEBUG] GET /training/
+[2017-11-16 14:14:54 +0000] [486] [DEBUG] GET /login/
+[2017-11-16 14:16:59 +0000] [482] [DEBUG] POST /login/
+[2017-11-16 14:16:59 +0000] [485] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-16 14:17:10 +0000] [486] [DEBUG] GET /training/
+[2017-11-16 14:21:19 +0000] [485] [DEBUG] GET /login/
+[2017-11-16 14:21:34 +0000] [482] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-16 14:21:39 +0000] [486] [DEBUG] GET /login/
+[2017-11-16 14:21:40 +0000] [485] [DEBUG] GET /training/
+[2017-11-16 14:21:40 +0000] [482] [DEBUG] GET /training/
+[2017-11-16 14:21:40 +0000] [482] [DEBUG] GET /login/
+[2017-11-16 14:21:40 +0000] [485] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-16 14:21:40 +0000] [486] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-16 14:21:40 +0000] [482] [DEBUG] GET /training/
+[2017-11-16 14:21:40 +0000] [485] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-16 14:23:45 +0000] [485] [DEBUG] GET /
+[2017-11-16 14:24:38 +0000] [485] [DEBUG] GET /login/
+[2017-11-16 14:24:58 +0000] [486] [DEBUG] POST /login/
+[2017-11-16 14:24:59 +0000] [482] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-16 18:10:09 +0000] [485] [DEBUG] GET /
+[2017-11-16 18:10:11 +0000] [482] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-16 18:10:14 +0000] [486] [DEBUG] GET /oauth/login/twitter/
+[2017-11-17 01:27:39 +0000] [486] [DEBUG] GET /
+[2017-11-17 02:51:09 +0000] [485] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-17 02:51:09 +0000] [482] [DEBUG] GET /admin/login/
+[2017-11-17 02:51:11 +0000] [485] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 02:53:26 +0000] [482] [DEBUG] GET /login/
+[2017-11-17 02:53:27 +0000] [485] [DEBUG] GET /training/
+[2017-11-17 02:53:27 +0000] [486] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-17 02:53:36 +0000] [485] [DEBUG] GET /
+[2017-11-17 03:42:10 +0000] [485] [DEBUG] GET /
+[2017-11-17 03:42:27 +0000] [486] [DEBUG] GET /
+[2017-11-17 03:42:41 +0000] [482] [DEBUG] GET /login/
+[2017-11-17 03:47:33 +0000] [486] [DEBUG] GET /login/
+[2017-11-17 03:59:04 +0000] [482] [DEBUG] GET /
+[2017-11-17 04:24:58 +0000] [482] [DEBUG] GET /
+[2017-11-17 04:25:00 +0000] [485] [DEBUG] GET /
+[2017-11-17 04:28:35 +0000] [485] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 04:28:50 +0000] [482] [DEBUG] GET /
+[2017-11-17 04:28:55 +0000] [486] [DEBUG] GET /login
+[2017-11-17 04:28:56 +0000] [485] [DEBUG] GET /login/
+[2017-11-17 04:28:56 +0000] [486] [DEBUG] GET /login
+[2017-11-17 04:29:13 +0000] [482] [DEBUG] POST /login/
+[2017-11-17 04:29:13 +0000] [486] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 04:29:13 +0000] [485] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 04:29:15 +0000] [482] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 04:29:19 +0000] [486] [DEBUG] GET /login/
+[2017-11-17 04:45:15 +0000] [486] [DEBUG] GET /login/
+[2017-11-17 04:45:27 +0000] [485] [DEBUG] POST /login/
+[2017-11-17 04:45:27 +0000] [482] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 04:45:42 +0000] [486] [DEBUG] GET /training
+[2017-11-17 04:45:43 +0000] [486] [DEBUG] GET /training/
+[2017-11-17 04:45:44 +0000] [482] [DEBUG] GET /training
+[2017-11-17 05:37:30 +0000] [482] [DEBUG] GET /login/
+[2017-11-17 05:50:35 +0000] [486] [DEBUG] GET /
+[2017-11-17 05:58:04 +0000] [473] [INFO] Handling signal: term
+[2017-11-17 05:58:04 +0000] [482] [INFO] Worker exiting (pid: 482)
+[2017-11-17 05:58:04 +0000] [485] [INFO] Worker exiting (pid: 485)
+[2017-11-17 05:58:04 +0000] [486] [INFO] Worker exiting (pid: 486)
+[2017-11-17 05:58:04 +0000] [473] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 05:58:05 +0000] [1464] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f6458b70668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f6458b70398>
+  pre_fork: <function pre_fork at 0x7f6458b70500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f6458b70230>
+  pre_exec: <function pre_exec at 0x7f6458b70c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f6458b74488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f6458b70d70>
+  post_request: <function post_request at 0x7f6458b70e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f6458b70938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f6458b700c8>
+  post_worker_init: <function post_worker_init at 0x7f6458b707d0>
+  child_exit: <function child_exit at 0x7f6458b74050>
+  worker_exit: <function worker_exit at 0x7f6458b741b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f6458b70aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f6458b74320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 05:58:05 +0000] [1464] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 05:58:05 +0000] [1464] [DEBUG] Arbiter booted
+[2017-11-17 05:58:05 +0000] [1464] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (1464)
+[2017-11-17 05:58:05 +0000] [1464] [INFO] Using worker: sync
+[2017-11-17 05:58:05 +0000] [1473] [INFO] Booting worker with pid: 1473
+[2017-11-17 05:58:05 +0000] [1474] [INFO] Booting worker with pid: 1474
+[2017-11-17 05:58:05 +0000] [1479] [INFO] Booting worker with pid: 1479
+[2017-11-17 05:58:05 +0000] [1464] [DEBUG] 3 workers
+[2017-11-17 05:58:18 +0000] [1474] [DEBUG] GET /
+[2017-11-17 05:58:22 +0000] [1473] [DEBUG] GET /
+[2017-11-17 05:58:35 +0000] [1479] [DEBUG] GET /login/
+[2017-11-17 10:27:38 +0000] [1473] [DEBUG] GET /admin
+[2017-11-17 10:27:38 +0000] [1479] [DEBUG] GET /admin/
+[2017-11-17 10:27:38 +0000] [1473] [DEBUG] GET /admin/login/
+[2017-11-17 10:27:39 +0000] [1479] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 10:27:44 +0000] [1474] [DEBUG] POST /admin/login/
+[2017-11-17 10:27:44 +0000] [1479] [DEBUG] GET /admin/
+[2017-11-17 10:27:48 +0000] [1474] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 10:27:48 +0000] [1479] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 10:28:21 +0000] [1473] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 10:28:21 +0000] [1479] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 10:44:03 +0000] [1464] [INFO] Handling signal: term
+[2017-11-17 10:44:03 +0000] [1473] [INFO] Worker exiting (pid: 1473)
+[2017-11-17 10:44:03 +0000] [1474] [INFO] Worker exiting (pid: 1474)
+[2017-11-17 10:44:03 +0000] [1479] [INFO] Worker exiting (pid: 1479)
+[2017-11-17 10:44:03 +0000] [1464] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 10:44:04 +0000] [2187] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f04ce2dc668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f04ce2dc398>
+  pre_fork: <function pre_fork at 0x7f04ce2dc500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f04ce2dc230>
+  pre_exec: <function pre_exec at 0x7f04ce2dcc08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f04ce2e0488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f04ce2dcd70>
+  post_request: <function post_request at 0x7f04ce2dce60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f04ce2dc938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f04ce2dc0c8>
+  post_worker_init: <function post_worker_init at 0x7f04ce2dc7d0>
+  child_exit: <function child_exit at 0x7f04ce2e0050>
+  worker_exit: <function worker_exit at 0x7f04ce2e01b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f04ce2dcaa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f04ce2e0320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 10:44:04 +0000] [2187] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 10:44:04 +0000] [2187] [DEBUG] Arbiter booted
+[2017-11-17 10:44:04 +0000] [2187] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2187)
+[2017-11-17 10:44:04 +0000] [2187] [INFO] Using worker: sync
+[2017-11-17 10:44:04 +0000] [2196] [INFO] Booting worker with pid: 2196
+[2017-11-17 10:44:04 +0000] [2197] [INFO] Booting worker with pid: 2197
+[2017-11-17 10:44:04 +0000] [2200] [INFO] Booting worker with pid: 2200
+[2017-11-17 10:44:04 +0000] [2187] [DEBUG] 3 workers
+[2017-11-17 11:21:55 +0000] [2200] [DEBUG] GET /
+[2017-11-17 11:22:05 +0000] [2197] [DEBUG] GET /admin/
+[2017-11-17 11:22:05 +0000] [2200] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 11:22:08 +0000] [2196] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-17 11:22:08 +0000] [2200] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:06:54 +0000] [2197] [DEBUG] GET /
+[2017-11-17 12:10:23 +0000] [2200] [DEBUG] GET /
+[2017-11-17 12:10:23 +0000] [2196] [DEBUG] GET /
+[2017-11-17 12:11:18 +0000] [2187] [INFO] Handling signal: term
+[2017-11-17 12:11:18 +0000] [2200] [INFO] Worker exiting (pid: 2200)
+[2017-11-17 12:11:18 +0000] [2196] [INFO] Worker exiting (pid: 2196)
+[2017-11-17 12:11:18 +0000] [2197] [INFO] Worker exiting (pid: 2197)
+[2017-11-17 12:11:18 +0000] [2187] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 12:11:20 +0000] [2503] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f5b70bcf668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f5b70bcf398>
+  pre_fork: <function pre_fork at 0x7f5b70bcf500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f5b70bcf230>
+  pre_exec: <function pre_exec at 0x7f5b70bcfc08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f5b70bd3488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f5b70bcfd70>
+  post_request: <function post_request at 0x7f5b70bcfe60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f5b70bcf938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f5b70bcf0c8>
+  post_worker_init: <function post_worker_init at 0x7f5b70bcf7d0>
+  child_exit: <function child_exit at 0x7f5b70bd3050>
+  worker_exit: <function worker_exit at 0x7f5b70bd31b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f5b70bcfaa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f5b70bd3320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 12:11:20 +0000] [2503] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 12:11:20 +0000] [2503] [DEBUG] Arbiter booted
+[2017-11-17 12:11:20 +0000] [2503] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2503)
+[2017-11-17 12:11:20 +0000] [2503] [INFO] Using worker: sync
+[2017-11-17 12:11:20 +0000] [2512] [INFO] Booting worker with pid: 2512
+[2017-11-17 12:11:20 +0000] [2513] [INFO] Booting worker with pid: 2513
+[2017-11-17 12:11:20 +0000] [2518] [INFO] Booting worker with pid: 2518
+[2017-11-17 12:11:20 +0000] [2503] [DEBUG] 3 workers
+[2017-11-17 12:11:23 +0000] [2513] [DEBUG] GET /
+[2017-11-17 12:12:27 +0000] [2513] [DEBUG] POST /signup/
+[2017-11-17 12:12:35 +0000] [2518] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 12:13:09 +0000] [2512] [DEBUG] GET /activate/Mw/4r8-cda0b22d3f1f8093a0ba/
+[2017-11-17 12:13:23 +0000] [2518] [DEBUG] GET /
+[2017-11-17 12:13:30 +0000] [2513] [DEBUG] GET /login
+[2017-11-17 12:13:30 +0000] [2512] [DEBUG] GET /login/
+[2017-11-17 12:13:39 +0000] [2513] [DEBUG] POST /login/
+[2017-11-17 12:13:39 +0000] [2518] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:13:45 +0000] [2512] [DEBUG] GET /login/
+[2017-11-17 12:14:01 +0000] [2518] [DEBUG] GET /admin
+[2017-11-17 12:14:01 +0000] [2513] [DEBUG] GET /admin/
+[2017-11-17 12:14:01 +0000] [2518] [DEBUG] GET /admin/login/
+[2017-11-17 12:14:09 +0000] [2513] [DEBUG] POST /admin/login/
+[2017-11-17 12:14:10 +0000] [2512] [DEBUG] GET /admin/
+[2017-11-17 12:14:15 +0000] [2513] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 12:14:15 +0000] [2512] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:19 +0000] [2518] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-17 12:14:19 +0000] [2512] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:23 +0000] [2513] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-17 12:14:24 +0000] [2512] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 12:14:24 +0000] [2513] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:24 +0000] [2518] [DEBUG] GET /admin/persona/benefactor/add
+[2017-11-17 12:14:26 +0000] [2512] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-17 12:14:30 +0000] [2518] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 12:14:33 +0000] [2512] [DEBUG] GET /admin/persona/
+[2017-11-17 12:14:35 +0000] [2518] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 12:14:36 +0000] [2512] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:36 +0000] [2513] [DEBUG] GET /admin/persona/benefactors
+[2017-11-17 12:14:38 +0000] [2518] [DEBUG] GET /admin/persona/benefactors/add/
+[2017-11-17 12:14:39 +0000] [2513] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:48 +0000] [2512] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 12:14:50 +0000] [2513] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-17 12:14:50 +0000] [2512] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:14:53 +0000] [2518] [DEBUG] POST /admin/persona/benefactors/1/change/
+[2017-11-17 12:14:53 +0000] [2512] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 12:14:54 +0000] [2518] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 12:15:05 +0000] [2513] [DEBUG] GET /login/
+[2017-11-17 12:15:11 +0000] [2512] [DEBUG] POST /login/
+[2017-11-17 12:15:12 +0000] [2518] [DEBUG] GET /send_otp
+[2017-11-17 12:15:12 +0000] [2513] [DEBUG] GET /send_otp/
+[2017-11-17 12:15:12 +0000] [2518] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:15:17 +0000] [2512] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:15:18 +0000] [2518] [DEBUG] GET /ajax_send_pin
+[2017-11-17 12:15:41 +0000] [2518] [DEBUG] POST /send_otp/
+[2017-11-17 12:15:41 +0000] [2513] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:15:55 +0000] [2518] [DEBUG] GET /send_otp/
+[2017-11-17 12:16:02 +0000] [2512] [DEBUG] POST /send_otp/
+[2017-11-17 12:16:02 +0000] [2513] [DEBUG] GET /
+[2017-11-17 12:16:23 +0000] [2512] [DEBUG] GET /login/
+[2017-11-17 12:16:31 +0000] [2513] [DEBUG] POST /login/
+[2017-11-17 12:16:31 +0000] [2518] [DEBUG] GET /send_otp
+[2017-11-17 12:16:31 +0000] [2512] [DEBUG] GET /send_otp/
+[2017-11-17 12:16:32 +0000] [2518] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:16:36 +0000] [2513] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:17:03 +0000] [2512] [DEBUG] POST /send_otp/
+[2017-11-17 12:17:03 +0000] [2518] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:19:25 +0000] [2513] [DEBUG] GET /
+[2017-11-17 12:19:31 +0000] [2518] [DEBUG] GET /oauth/login/twitter/
+[2017-11-17 12:19:34 +0000] [2513] [DEBUG] GET /
+[2017-11-17 12:19:36 +0000] [2512] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-17 12:19:49 +0000] [2503] [INFO] Handling signal: term
+[2017-11-17 12:19:49 +0000] [2513] [INFO] Worker exiting (pid: 2513)
+[2017-11-17 12:19:49 +0000] [2518] [INFO] Worker exiting (pid: 2518)
+[2017-11-17 12:19:49 +0000] [2512] [INFO] Worker exiting (pid: 2512)
+[2017-11-17 12:19:49 +0000] [2503] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 12:19:50 +0000] [2543] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fd386134668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fd386134398>
+  pre_fork: <function pre_fork at 0x7fd386134500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fd386134230>
+  pre_exec: <function pre_exec at 0x7fd386134c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fd386138488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fd386134d70>
+  post_request: <function post_request at 0x7fd386134e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fd386134938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fd3861340c8>
+  post_worker_init: <function post_worker_init at 0x7fd3861347d0>
+  child_exit: <function child_exit at 0x7fd386138050>
+  worker_exit: <function worker_exit at 0x7fd3861381b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fd386134aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fd386138320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 12:19:50 +0000] [2543] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 12:19:50 +0000] [2543] [DEBUG] Arbiter booted
+[2017-11-17 12:19:50 +0000] [2543] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2543)
+[2017-11-17 12:19:50 +0000] [2543] [INFO] Using worker: sync
+[2017-11-17 12:19:50 +0000] [2552] [INFO] Booting worker with pid: 2552
+[2017-11-17 12:19:50 +0000] [2553] [INFO] Booting worker with pid: 2553
+[2017-11-17 12:19:50 +0000] [2554] [INFO] Booting worker with pid: 2554
+[2017-11-17 12:19:50 +0000] [2543] [DEBUG] 3 workers
+[2017-11-17 12:19:58 +0000] [2553] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-17 12:19:59 +0000] [2554] [DEBUG] GET /send_otp
+[2017-11-17 12:20:00 +0000] [2553] [DEBUG] GET /send_otp/
+[2017-11-17 12:20:00 +0000] [2554] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:20:08 +0000] [2553] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:20:36 +0000] [2554] [DEBUG] POST /send_otp/
+[2017-11-17 12:20:36 +0000] [2552] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:20:38 +0000] [2554] [DEBUG] GET /send_otp/
+[2017-11-17 12:20:40 +0000] [2552] [DEBUG] POST /send_otp/
+[2017-11-17 12:20:40 +0000] [2553] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:20:44 +0000] [2554] [DEBUG] GET /send_otp/
+[2017-11-17 12:21:22 +0000] [2553] [DEBUG] GET /send_otp/
+[2017-11-17 12:21:23 +0000] [2554] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:21:35 +0000] [2552] [DEBUG] POST /send_otp/
+[2017-11-17 12:21:35 +0000] [2553] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:21:36 +0000] [2552] [DEBUG] GET /send_otp
+[2017-11-17 12:23:22 +0000] [2552] [DEBUG] GET /
+[2017-11-17 12:23:25 +0000] [2553] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-17 12:23:36 +0000] [2554] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-17 12:23:38 +0000] [2552] [DEBUG] GET /send_otp
+[2017-11-17 12:23:38 +0000] [2553] [DEBUG] GET /send_otp/
+[2017-11-17 12:23:38 +0000] [2552] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:23:45 +0000] [2554] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:24:07 +0000] [2552] [DEBUG] POST /send_otp/
+[2017-11-17 12:24:08 +0000] [2553] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:27:42 +0000] [2553] [DEBUG] GET /send_otp/
+[2017-11-17 12:27:44 +0000] [2552] [DEBUG] POST /send_otp/
+[2017-11-17 12:27:45 +0000] [2554] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:27:46 +0000] [2552] [DEBUG] GET /send_otp/
+[2017-11-17 12:27:50 +0000] [2554] [DEBUG] GET /send_otp/
+[2017-11-17 12:27:51 +0000] [2552] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:28:06 +0000] [2543] [INFO] Handling signal: term
+[2017-11-17 12:28:06 +0000] [2553] [INFO] Worker exiting (pid: 2553)
+[2017-11-17 12:28:06 +0000] [2554] [INFO] Worker exiting (pid: 2554)
+[2017-11-17 12:28:06 +0000] [2552] [INFO] Worker exiting (pid: 2552)
+[2017-11-17 12:28:07 +0000] [2543] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 12:28:08 +0000] [2612] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fadcadc8668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fadcadc8398>
+  pre_fork: <function pre_fork at 0x7fadcadc8500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fadcadc8230>
+  pre_exec: <function pre_exec at 0x7fadcadc8c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fadcadcc488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fadcadc8d70>
+  post_request: <function post_request at 0x7fadcadc8e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fadcadc8938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fadcadc80c8>
+  post_worker_init: <function post_worker_init at 0x7fadcadc87d0>
+  child_exit: <function child_exit at 0x7fadcadcc050>
+  worker_exit: <function worker_exit at 0x7fadcadcc1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fadcadc8aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fadcadcc320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 12:28:08 +0000] [2612] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 12:28:08 +0000] [2612] [DEBUG] Arbiter booted
+[2017-11-17 12:28:08 +0000] [2612] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2612)
+[2017-11-17 12:28:08 +0000] [2612] [INFO] Using worker: sync
+[2017-11-17 12:28:08 +0000] [2621] [INFO] Booting worker with pid: 2621
+[2017-11-17 12:28:08 +0000] [2622] [INFO] Booting worker with pid: 2622
+[2017-11-17 12:28:08 +0000] [2612] [DEBUG] 3 workers
+[2017-11-17 12:28:08 +0000] [2625] [INFO] Booting worker with pid: 2625
+[2017-11-17 12:28:22 +0000] [2622] [DEBUG] GET /send_otp/
+[2017-11-17 12:28:22 +0000] [2625] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:28:37 +0000] [2622] [DEBUG] POST /send_otp/
+[2017-11-17 12:28:37 +0000] [2621] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:28:39 +0000] [2612] [INFO] Handling signal: term
+[2017-11-17 12:28:39 +0000] [2622] [INFO] Worker exiting (pid: 2622)
+[2017-11-17 12:28:39 +0000] [2625] [INFO] Worker exiting (pid: 2625)
+[2017-11-17 12:28:39 +0000] [2621] [INFO] Worker exiting (pid: 2621)
+[2017-11-17 12:28:40 +0000] [2612] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 12:28:41 +0000] [2633] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fec2b192668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fec2b192398>
+  pre_fork: <function pre_fork at 0x7fec2b192500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fec2b192230>
+  pre_exec: <function pre_exec at 0x7fec2b192c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fec2b196488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fec2b192d70>
+  post_request: <function post_request at 0x7fec2b192e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fec2b192938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fec2b1920c8>
+  post_worker_init: <function post_worker_init at 0x7fec2b1927d0>
+  child_exit: <function child_exit at 0x7fec2b196050>
+  worker_exit: <function worker_exit at 0x7fec2b1961b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fec2b192aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fec2b196320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 12:28:41 +0000] [2633] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 12:28:41 +0000] [2633] [DEBUG] Arbiter booted
+[2017-11-17 12:28:41 +0000] [2633] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2633)
+[2017-11-17 12:28:41 +0000] [2633] [INFO] Using worker: sync
+[2017-11-17 12:28:41 +0000] [2642] [INFO] Booting worker with pid: 2642
+[2017-11-17 12:28:41 +0000] [2643] [INFO] Booting worker with pid: 2643
+[2017-11-17 12:28:41 +0000] [2646] [INFO] Booting worker with pid: 2646
+[2017-11-17 12:28:41 +0000] [2633] [DEBUG] 3 workers
+[2017-11-17 12:29:05 +0000] [2643] [DEBUG] GET /send_otp/
+[2017-11-17 12:44:39 +0000] [2643] [DEBUG] GET /
+[2017-11-17 12:52:34 +0000] [2633] [INFO] Handling signal: term
+[2017-11-17 12:52:34 +0000] [2642] [INFO] Worker exiting (pid: 2642)
+[2017-11-17 12:52:34 +0000] [2643] [INFO] Worker exiting (pid: 2643)
+[2017-11-17 12:52:34 +0000] [2646] [INFO] Worker exiting (pid: 2646)
+[2017-11-17 12:52:34 +0000] [2633] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 12:52:35 +0000] [2975] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f5769a77668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f5769a77398>
+  pre_fork: <function pre_fork at 0x7f5769a77500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f5769a77230>
+  pre_exec: <function pre_exec at 0x7f5769a77c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f5769a7b488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f5769a77d70>
+  post_request: <function post_request at 0x7f5769a77e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f5769a77938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f5769a770c8>
+  post_worker_init: <function post_worker_init at 0x7f5769a777d0>
+  child_exit: <function child_exit at 0x7f5769a7b050>
+  worker_exit: <function worker_exit at 0x7f5769a7b1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f5769a77aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f5769a7b320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 12:52:35 +0000] [2975] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 12:52:35 +0000] [2975] [DEBUG] Arbiter booted
+[2017-11-17 12:52:35 +0000] [2975] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (2975)
+[2017-11-17 12:52:35 +0000] [2975] [INFO] Using worker: sync
+[2017-11-17 12:52:35 +0000] [2984] [INFO] Booting worker with pid: 2984
+[2017-11-17 12:52:35 +0000] [2987] [INFO] Booting worker with pid: 2987
+[2017-11-17 12:52:35 +0000] [2988] [INFO] Booting worker with pid: 2988
+[2017-11-17 12:52:35 +0000] [2975] [DEBUG] 3 workers
+[2017-11-17 12:52:55 +0000] [2987] [DEBUG] GET /
+[2017-11-17 12:52:59 +0000] [2988] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-17 12:53:19 +0000] [2987] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-17 12:53:21 +0000] [2984] [DEBUG] GET /send_otp
+[2017-11-17 12:53:21 +0000] [2987] [DEBUG] GET /send_otp/
+[2017-11-17 12:53:22 +0000] [2984] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:53:37 +0000] [2988] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:55:02 +0000] [2988] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 12:55:27 +0000] [2987] [DEBUG] POST /send_otp/
+[2017-11-17 12:55:27 +0000] [2984] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 12:58:29 +0000] [2984] [DEBUG] GET /
+[2017-11-17 12:58:32 +0000] [2987] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-17 12:58:48 +0000] [2988] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-17 12:58:50 +0000] [2987] [DEBUG] GET /send_otp
+[2017-11-17 12:58:50 +0000] [2984] [DEBUG] GET /send_otp/
+[2017-11-17 12:58:51 +0000] [2987] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 12:59:18 +0000] [2988] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 13:22:51 +0000] [2975] [INFO] Handling signal: term
+[2017-11-17 13:22:51 +0000] [2984] [INFO] Worker exiting (pid: 2984)
+[2017-11-17 13:22:51 +0000] [2987] [INFO] Worker exiting (pid: 2987)
+[2017-11-17 13:22:51 +0000] [2988] [INFO] Worker exiting (pid: 2988)
+[2017-11-17 13:22:51 +0000] [2975] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 13:22:52 +0000] [3155] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa86ddaa668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa86ddaa398>
+  pre_fork: <function pre_fork at 0x7fa86ddaa500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa86ddaa230>
+  pre_exec: <function pre_exec at 0x7fa86ddaac08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fa86ddae488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa86ddaad70>
+  post_request: <function post_request at 0x7fa86ddaae60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa86ddaa938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fa86ddaa0c8>
+  post_worker_init: <function post_worker_init at 0x7fa86ddaa7d0>
+  child_exit: <function child_exit at 0x7fa86ddae050>
+  worker_exit: <function worker_exit at 0x7fa86ddae1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fa86ddaaaa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa86ddae320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 13:22:52 +0000] [3155] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 13:22:52 +0000] [3155] [DEBUG] Arbiter booted
+[2017-11-17 13:22:52 +0000] [3155] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (3155)
+[2017-11-17 13:22:52 +0000] [3155] [INFO] Using worker: sync
+[2017-11-17 13:22:52 +0000] [3164] [INFO] Booting worker with pid: 3164
+[2017-11-17 13:22:52 +0000] [3167] [INFO] Booting worker with pid: 3167
+[2017-11-17 13:22:52 +0000] [3168] [INFO] Booting worker with pid: 3168
+[2017-11-17 13:22:52 +0000] [3155] [DEBUG] 3 workers
+[2017-11-17 13:23:08 +0000] [3167] [DEBUG] GET /
+[2017-11-17 13:23:18 +0000] [3168] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-17 13:23:31 +0000] [3167] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-17 13:23:33 +0000] [3164] [DEBUG] GET /send_otp
+[2017-11-17 13:23:33 +0000] [3167] [DEBUG] GET /send_otp/
+[2017-11-17 13:23:33 +0000] [3164] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-17 13:23:46 +0000] [3168] [DEBUG] POST /ajax_send_pin/
+[2017-11-17 13:24:09 +0000] [3164] [DEBUG] POST /send_otp/
+[2017-11-17 13:24:09 +0000] [3167] [DEBUG] GET /profile/
+Not Found: /profile/
+[2017-11-17 13:24:45 +0000] [3168] [DEBUG] GET /logout
+[2017-11-17 13:24:45 +0000] [3164] [DEBUG] GET /logout/
+[2017-11-17 13:24:46 +0000] [3168] [DEBUG] GET /logout
+[2017-11-17 13:24:51 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:24:51 +0000] [3168] [DEBUG] GET /admin/login/
+[2017-11-17 13:24:54 +0000] [3167] [DEBUG] GET /logout/
+[2017-11-17 13:25:00 +0000] [3168] [DEBUG] GET /
+[2017-11-17 13:25:42 +0000] [3167] [DEBUG] GET /login
+[2017-11-17 13:25:42 +0000] [3164] [DEBUG] GET /login/
+[2017-11-17 13:25:49 +0000] [3167] [DEBUG] GET /
+[2017-11-17 13:26:28 +0000] [3168] [DEBUG] GET /rter
+Not Found: /rter
+[2017-11-17 13:26:44 +0000] [3164] [DEBUG] GET /training
+[2017-11-17 13:26:44 +0000] [3167] [DEBUG] GET /training/
+[2017-11-17 13:26:44 +0000] [3164] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-17 13:26:45 +0000] [3167] [DEBUG] GET /accounts/login
+Not Found: /accounts/login
+[2017-11-17 13:26:55 +0000] [3168] [DEBUG] GET /
+[2017-11-17 13:27:01 +0000] [3164] [DEBUG] GET /login/
+[2017-11-17 13:27:05 +0000] [3167] [DEBUG] POST /login/
+[2017-11-17 13:27:06 +0000] [3164] [DEBUG] GET /error/
+Not Found: /error/
+[2017-11-17 13:27:12 +0000] [3168] [DEBUG] GET /training/
+[2017-11-17 13:27:20 +0000] [3164] [DEBUG] POST /training/
+[2017-11-17 13:27:21 +0000] [3167] [DEBUG] GET /training/
+[2017-11-17 13:27:31 +0000] [3164] [DEBUG] GET /
+[2017-11-17 13:27:51 +0000] [3168] [DEBUG] GET /tghfg
+Not Found: /tghfg
+[2017-11-17 13:34:30 +0000] [3167] [DEBUG] GET /
+[2017-11-17 13:35:01 +0000] [3168] [DEBUG] GET /
+[2017-11-17 13:35:08 +0000] [3164] [DEBUG] GET /
+[2017-11-17 13:35:11 +0000] [3168] [DEBUG] GET /
+[2017-11-17 13:35:36 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:35:36 +0000] [3167] [DEBUG] GET /admin/login/
+[2017-11-17 13:35:37 +0000] [3164] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-17 13:35:55 +0000] [3168] [DEBUG] POST /admin/login/
+[2017-11-17 13:35:56 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:37:43 +0000] [3164] [DEBUG] GET /
+[2017-11-17 13:37:52 +0000] [3168] [DEBUG] GET /admin
+[2017-11-17 13:37:52 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:37:52 +0000] [3168] [DEBUG] GET /admin/login/
+[2017-11-17 13:38:00 +0000] [3167] [DEBUG] POST /admin/login/
+[2017-11-17 13:38:00 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:38:04 +0000] [3167] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 13:38:05 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:38:09 +0000] [3168] [DEBUG] GET /admin/
+[2017-11-17 13:38:10 +0000] [3164] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 13:38:10 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:38:13 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:38:18 +0000] [3168] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 13:38:18 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:38:25 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:38:51 +0000] [3167] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 13:38:51 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:38:54 +0000] [3164] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-17 13:38:54 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:38:57 +0000] [3167] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 13:38:58 +0000] [3168] [DEBUG] GET /admin/
+[2017-11-17 13:42:45 +0000] [3168] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 13:42:45 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:42:47 +0000] [3164] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-17 13:42:47 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:00 +0000] [3168] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 13:43:03 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:43:05 +0000] [3164] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 13:43:05 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:11 +0000] [3168] [DEBUG] GET /admin/
+[2017-11-17 13:43:14 +0000] [3167] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 13:43:14 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:18 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:43:20 +0000] [3168] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 13:43:21 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:22 +0000] [3167] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-17 13:43:23 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:28 +0000] [3168] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 13:43:29 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:43:34 +0000] [3168] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 13:43:34 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:43:45 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:44:05 +0000] [3164] [DEBUG] GET /admin/auth/user/2/change/
+[2017-11-17 13:44:06 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:44:16 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:44:27 +0000] [3168] [DEBUG] GET /admin/persona/benefactor/4/change/
+[2017-11-17 13:44:27 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:44:29 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:44:41 +0000] [3164] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:44:42 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:45:30 +0000] [3168] [DEBUG] GET /admin/auth/
+[2017-11-17 13:45:34 +0000] [3167] [DEBUG] GET /admin/auth/group/
+[2017-11-17 13:45:34 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:45:36 +0000] [3164] [DEBUG] GET /admin/auth/
+[2017-11-17 13:45:38 +0000] [3168] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:45:38 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:45:40 +0000] [3167] [DEBUG] GET /admin/auth/
+[2017-11-17 13:45:44 +0000] [3164] [DEBUG] GET /admin/
+[2017-11-17 13:45:47 +0000] [3167] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-17 13:45:47 +0000] [3164] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:46:00 +0000] [3168] [DEBUG] GET /admin/
+[2017-11-17 13:48:51 +0000] [3164] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:48:55 +0000] [3167] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:49:48 +0000] [3168] [DEBUG] GET /admin/auth/
+[2017-11-17 13:49:51 +0000] [3167] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:49:51 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:49:56 +0000] [3164] [DEBUG] GET /admin/auth/user/2/change/
+[2017-11-17 13:49:56 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:50:02 +0000] [3167] [DEBUG] GET /admin/auth/user/2/delete/
+[2017-11-17 13:50:04 +0000] [3168] [DEBUG] POST /admin/auth/user/2/delete/
+[2017-11-17 13:50:04 +0000] [3167] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:50:05 +0000] [3168] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:50:07 +0000] [3164] [DEBUG] GET /admin/auth/
+[2017-11-17 13:50:09 +0000] [3168] [DEBUG] GET /admin/
+[2017-11-17 13:50:33 +0000] [3164] [DEBUG] GET /admin/auth/user/2/change/
+[2017-11-17 13:50:33 +0000] [3167] [DEBUG] GET /admin/
+[2017-11-17 13:55:55 +0000] [3167] [DEBUG] GET /
+[2017-11-17 13:56:39 +0000] [3155] [INFO] Handling signal: term
+[2017-11-17 13:56:39 +0000] [3168] [INFO] Worker exiting (pid: 3168)
+[2017-11-17 13:56:39 +0000] [3164] [INFO] Worker exiting (pid: 3164)
+[2017-11-17 13:56:39 +0000] [3167] [INFO] Worker exiting (pid: 3167)
+[2017-11-17 13:56:39 +0000] [3155] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-17 13:56:40 +0000] [3231] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f74ceb4b668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f74ceb4b398>
+  pre_fork: <function pre_fork at 0x7f74ceb4b500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f74ceb4b230>
+  pre_exec: <function pre_exec at 0x7f74ceb4bc08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f74ceb4f488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f74ceb4bd70>
+  post_request: <function post_request at 0x7f74ceb4be60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f74ceb4b938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f74ceb4b0c8>
+  post_worker_init: <function post_worker_init at 0x7f74ceb4b7d0>
+  child_exit: <function child_exit at 0x7f74ceb4f050>
+  worker_exit: <function worker_exit at 0x7f74ceb4f1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f74ceb4baa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f74ceb4f320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-17 13:56:40 +0000] [3231] [INFO] Starting gunicorn 19.7.1
+[2017-11-17 13:56:40 +0000] [3231] [DEBUG] Arbiter booted
+[2017-11-17 13:56:40 +0000] [3231] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (3231)
+[2017-11-17 13:56:40 +0000] [3231] [INFO] Using worker: sync
+[2017-11-17 13:56:40 +0000] [3240] [INFO] Booting worker with pid: 3240
+[2017-11-17 13:56:40 +0000] [3243] [INFO] Booting worker with pid: 3243
+[2017-11-17 13:56:40 +0000] [3244] [INFO] Booting worker with pid: 3244
+[2017-11-17 13:56:40 +0000] [3231] [DEBUG] 3 workers
+[2017-11-17 13:57:47 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 13:58:07 +0000] [3240] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 13:58:08 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:58:09 +0000] [3243] [DEBUG] GET /admin/jsi18n
+[2017-11-17 13:58:11 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 13:58:40 +0000] [3240] [DEBUG] GET /
+[2017-11-17 13:58:40 +0000] [3243] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-17 13:58:56 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 13:59:05 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 13:59:05 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:59:08 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 13:59:11 +0000] [3244] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-17 13:59:11 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:59:15 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 13:59:20 +0000] [3243] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 13:59:20 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:59:22 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 13:59:45 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 13:59:45 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 13:59:47 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 13:59:50 +0000] [3244] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 13:59:50 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:01:00 +0000] [3240] [DEBUG] GET /admin/persona/
+[2017-11-17 14:01:15 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:01:15 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:02:22 +0000] [3240] [DEBUG] GET /admin/persona/
+[2017-11-17 14:02:23 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:02:35 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:02:35 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:02:45 +0000] [3244] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:02:46 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:02:49 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:02:49 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:02:52 +0000] [3244] [DEBUG] GET /admin/auth/user/3/change/
+[2017-11-17 14:02:53 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:04:19 +0000] [3243] [DEBUG] GET /admin/auth/user/3/history/
+[2017-11-17 14:04:26 +0000] [3244] [DEBUG] GET /admin/auth/
+[2017-11-17 14:04:26 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:04:29 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:04:29 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:04:32 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-17 14:04:33 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:04:35 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/1/history/
+[2017-11-17 14:04:37 +0000] [3240] [DEBUG] GET /admin/persona/
+[2017-11-17 14:04:46 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:05:05 +0000] [3240] [DEBUG] GET /admin/social_django/association/
+[2017-11-17 14:05:05 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:12 +0000] [3244] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:05:14 +0000] [3243] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 14:05:14 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:16 +0000] [3240] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:05:17 +0000] [3244] [DEBUG] GET /admin/social_django/usersocialauth/
+[2017-11-17 14:05:17 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:20 +0000] [3243] [DEBUG] GET /admin/social_django/usersocialauth/1/change/
+[2017-11-17 14:05:20 +0000] [3240] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-17 14:05:21 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:21 +0000] [3243] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-17 14:05:24 +0000] [3240] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:05:25 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:05:43 +0000] [3244] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:05:43 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:48 +0000] [3240] [DEBUG] GET /admin/auth/user/1/change/
+[2017-11-17 14:05:48 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:05:53 +0000] [3244] [DEBUG] GET /admin/auth/user/1/history/
+[2017-11-17 14:05:57 +0000] [3243] [DEBUG] GET /admin/auth/user/1/change/
+[2017-11-17 14:05:57 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:06:05 +0000] [3240] [DEBUG] GET /admin/auth/
+[2017-11-17 14:06:06 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:20:47 +0000] [3243] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:20:48 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:20:56 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:21:00 +0000] [3244] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:21:00 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:21:57 +0000] [3243] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:21:59 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:22:05 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:22:09 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:30:53 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:33:51 +0000] [3243] [DEBUG] GET /
+[2017-11-17 14:34:40 +0000] [3244] [DEBUG] GET /admin
+[2017-11-17 14:34:41 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:34:45 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:34:45 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:34:50 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-17 14:34:50 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:36:41 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:36:41 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:36:43 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:36:43 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:36:51 +0000] [3240] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:36:53 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:37:02 +0000] [3240] [DEBUG] GET /
+[2017-11-17 14:37:18 +0000] [3244] [DEBUG] POST /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:37:18 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:37:18 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:37:19 +0000] [3243] [DEBUG] GET /oauth/login/twitter/
+[2017-11-17 14:37:20 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:37:20 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:37:35 +0000] [3240] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-17 14:37:35 +0000] [3244] [DEBUG] GET /logout/
+[2017-11-17 14:37:42 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:37:42 +0000] [3240] [DEBUG] GET /admin/login/
+[2017-11-17 14:37:46 +0000] [3243] [DEBUG] GET /
+[2017-11-17 14:37:47 +0000] [3240] [DEBUG] POST /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:37:47 +0000] [3243] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:37:47 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:37:49 +0000] [3244] [DEBUG] GET /
+[2017-11-17 14:37:52 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:37:52 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:37:54 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:37:54 +0000] [3240] [DEBUG] GET /admin/login/
+[2017-11-17 14:37:59 +0000] [3244] [DEBUG] POST /admin/login/
+[2017-11-17 14:37:59 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:38:04 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:38:04 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:38:06 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:38:07 +0000] [3243] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 14:38:07 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:38:10 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:38:12 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:38:12 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:38:18 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:38:36 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:38:42 +0000] [3243] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:38:43 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:38:46 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:38:58 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:38:58 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:39:00 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-17 14:39:00 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:39:54 +0000] [3240] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:39:55 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:39:56 +0000] [3243] [DEBUG] GET /admin/persona/
+[2017-11-17 14:40:01 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:40:02 +0000] [3243] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:40:02 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:40:04 +0000] [3240] [DEBUG] GET /admin/auth/user/3/change/
+[2017-11-17 14:40:04 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:40:34 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:40:40 +0000] [3240] [DEBUG] GET /admin/social_django/association/
+[2017-11-17 14:40:40 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:40:43 +0000] [3243] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:40:44 +0000] [3244] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 14:40:45 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:40:46 +0000] [3240] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:40:47 +0000] [3243] [DEBUG] GET /admin/social_django/usersocialauth/
+[2017-11-17 14:40:47 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:40:49 +0000] [3244] [DEBUG] GET /admin/social_django/usersocialauth/1/change/
+[2017-11-17 14:40:49 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:03 +0000] [3243] [DEBUG] GET /admin/social_django/
+[2017-11-17 14:41:04 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:41:08 +0000] [3244] [DEBUG] GET /admin/django_cron/cronjoblog/
+[2017-11-17 14:41:08 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:19 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:41:21 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:41:21 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:29 +0000] [3244] [DEBUG] GET /admin/auth/user/1/change/
+[2017-11-17 14:41:29 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:45 +0000] [3240] [DEBUG] GET /admin/social_django/association/
+[2017-11-17 14:41:45 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:47 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:41:48 +0000] [3243] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 14:41:48 +0000] [3240] [DEBUG] POST /admin/auth/user/1/change/
+[2017-11-17 14:41:49 +0000] [3243] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:41:49 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:49 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:49 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:41:52 +0000] [3244] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:41:53 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:41:58 +0000] [3240] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:41:58 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:02 +0000] [3244] [DEBUG] GET /admin/persona/trainingdata/11/change/
+[2017-11-17 14:42:02 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:04 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 14:42:04 +0000] [3243] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:42:07 +0000] [3240] [DEBUG] GET /admin/persona/trainingdata/17/change/
+[2017-11-17 14:42:07 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:09 +0000] [3244] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:42:13 +0000] [3243] [DEBUG] GET /admin/persona/trainingdata/12/change/
+[2017-11-17 14:42:14 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:15 +0000] [3240] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:42:16 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 14:42:16 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:17 +0000] [3243] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:42:18 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-17 14:42:18 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:19 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:42:23 +0000] [3243] [DEBUG] GET /admin/persona/
+[2017-11-17 14:42:25 +0000] [3244] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 14:42:25 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:27 +0000] [3240] [DEBUG] GET /admin/persona/
+[2017-11-17 14:42:29 +0000] [3243] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-17 14:42:29 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:31 +0000] [3244] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-17 14:42:31 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:33 +0000] [3243] [DEBUG] GET /admin/persona/
+[2017-11-17 14:42:35 +0000] [3240] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 14:42:35 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:37 +0000] [3244] [DEBUG] GET /admin/persona/
+[2017-11-17 14:42:38 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:42:38 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:40 +0000] [3240] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-17 14:42:40 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:42:57 +0000] [3243] [DEBUG] GET /admin/persona/
+[2017-11-17 14:42:58 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:43:02 +0000] [3243] [DEBUG] GET /admin/auth/user/
+[2017-11-17 14:43:02 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:43:08 +0000] [3240] [DEBUG] GET /admin/auth/user/3/change/
+[2017-11-17 14:43:08 +0000] [3244] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:43:32 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-17 14:43:41 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 14:43:41 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:43:43 +0000] [3243] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-17 14:43:43 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-17 14:43:46 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-17 14:43:49 +0000] [3240] [DEBUG] GET /admin/logout/
+[2017-11-17 14:43:53 +0000] [3244] [DEBUG] GET /
+[2017-11-17 15:44:44 +0000] [3244] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-17 15:44:44 +0000] [3240] [DEBUG] GET /admin/
+[2017-11-17 15:44:49 +0000] [3243] [DEBUG] GET /logout/
+[2017-11-17 15:44:50 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-17 15:44:50 +0000] [3244] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-17 15:44:50 +0000] [3240] [DEBUG] GET /admin/auth/user/
+[2017-11-17 15:44:51 +0000] [3244] [DEBUG] GET /admin/persona/trainingdata/
+[2017-11-17 15:44:55 +0000] [3243] [DEBUG] GET /admin/social_django/association/
+[2017-11-17 15:44:56 +0000] [3240] [DEBUG] GET /admin/social_django/nonce/
+[2017-11-17 15:44:56 +0000] [3244] [DEBUG] GET /admin/persona/trainingdata/11/change/
+[2017-11-17 15:44:56 +0000] [3243] [DEBUG] GET /admin/persona/trainingdata/17/change/
+[2017-11-17 15:44:56 +0000] [3240] [DEBUG] GET /admin/persona/trainingdata/12/change/
+[2017-11-17 15:55:45 +0000] [3240] [DEBUG] GET /
+[2017-11-17 19:38:27 +0000] [3243] [DEBUG] GET /oauth/complete/linkedin
+[2017-11-18 19:55:42 +0000] [3244] [DEBUG] GET /
+[2017-11-18 23:49:01 +0000] [3243] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-18 23:49:05 +0000] [3240] [DEBUG] GET /
+[2017-11-19 12:44:36 +0000] [3240] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-19 12:44:39 +0000] [3244] [DEBUG] GET /
+[2017-11-19 20:26:30 +0000] [3243] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-19 20:26:33 +0000] [3244] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-19 20:26:37 +0000] [3240] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 03:08:18 +0000] [3240] [DEBUG] GET /
+[2017-11-20 04:01:53 +0000] [3240] [DEBUG] GET /
+[2017-11-20 04:02:01 +0000] [3243] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 04:02:29 +0000] [3244] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 04:02:30 +0000] [3240] [DEBUG] GET /logout/
+[2017-11-20 04:02:30 +0000] [3244] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-20 04:02:43 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-20 04:02:43 +0000] [3240] [DEBUG] GET /admin/login/
+[2017-11-20 04:02:48 +0000] [3243] [DEBUG] POST /admin/login/
+[2017-11-20 04:02:48 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-20 04:02:59 +0000] [3243] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-20 04:03:00 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 04:03:00 +0000] [3244] [DEBUG] GET /admin/jsi18n
+[2017-11-20 04:03:03 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-20 04:03:06 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-20 04:03:07 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 04:03:11 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-20 04:03:11 +0000] [3243] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 04:03:42 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-20 04:03:57 +0000] [3243] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-20 04:03:57 +0000] [3240] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 04:06:26 +0000] [3240] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-20 04:06:27 +0000] [3244] [DEBUG] GET /admin/persona/benefactorprofile
+[2017-11-20 04:06:54 +0000] [3243] [DEBUG] GET /admin/
+[2017-11-20 05:18:07 +0000] [3244] [DEBUG] GET /
+[2017-11-20 05:18:15 +0000] [3243] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-20 05:18:15 +0000] [3240] [DEBUG] GET /oauth/login/linkedin
+[2017-11-20 05:18:30 +0000] [3244] [DEBUG] GET /
+[2017-11-20 05:18:32 +0000] [3240] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 05:18:35 +0000] [3243] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 05:18:36 +0000] [3240] [DEBUG] GET /logout/
+[2017-11-20 05:18:37 +0000] [3243] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-20 05:19:08 +0000] [3244] [DEBUG] GET /admin/
+[2017-11-20 05:19:08 +0000] [3240] [DEBUG] GET /admin/login/
+[2017-11-20 05:19:12 +0000] [3244] [DEBUG] GET /logout/
+[2017-11-20 05:19:18 +0000] [3240] [DEBUG] GET /
+[2017-11-20 05:19:36 +0000] [3244] [DEBUG] GET /error
+[2017-11-20 05:19:36 +0000] [3243] [DEBUG] GET /error/
+[2017-11-20 05:20:05 +0000] [3240] [DEBUG] GET /profile/
+[2017-11-20 05:20:21 +0000] [3243] [DEBUG] GET /login/
+[2017-11-20 05:20:31 +0000] [3240] [DEBUG] POST /login/
+[2017-11-20 05:20:31 +0000] [3244] [DEBUG] GET /send_otp
+[2017-11-20 05:20:32 +0000] [3243] [DEBUG] GET /send_otp/
+[2017-11-20 05:20:32 +0000] [3244] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 05:20:40 +0000] [3240] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 05:21:15 +0000] [3244] [DEBUG] POST /send_otp/
+[2017-11-20 05:21:16 +0000] [3240] [DEBUG] GET /profile/
+[2017-11-20 05:28:51 +0000] [3243] [DEBUG] GET /profile/
+[2017-11-20 08:03:54 +0000] [3240] [DEBUG] GET /
+[2017-11-20 09:10:40 +0000] [3243] [DEBUG] GET /
+[2017-11-20 12:25:05 +0000] [3240] [DEBUG] GET /
+[2017-11-20 12:56:03 +0000] [3231] [INFO] Handling signal: term
+[2017-11-20 12:56:03 +0000] [3240] [INFO] Worker exiting (pid: 3240)
+[2017-11-20 12:56:03 +0000] [3243] [INFO] Worker exiting (pid: 3243)
+[2017-11-20 12:56:03 +0000] [3244] [INFO] Worker exiting (pid: 3244)
+[2017-11-20 12:56:03 +0000] [3231] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-20 12:56:04 +0000] [9396] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f41f2827668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f41f2827398>
+  pre_fork: <function pre_fork at 0x7f41f2827500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f41f2827230>
+  pre_exec: <function pre_exec at 0x7f41f2827c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f41f282b488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f41f2827d70>
+  post_request: <function post_request at 0x7f41f2827e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f41f2827938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f41f28270c8>
+  post_worker_init: <function post_worker_init at 0x7f41f28277d0>
+  child_exit: <function child_exit at 0x7f41f282b050>
+  worker_exit: <function worker_exit at 0x7f41f282b1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f41f2827aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f41f282b320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-20 12:56:04 +0000] [9396] [INFO] Starting gunicorn 19.7.1
+[2017-11-20 12:56:04 +0000] [9396] [DEBUG] Arbiter booted
+[2017-11-20 12:56:04 +0000] [9396] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (9396)
+[2017-11-20 12:56:04 +0000] [9396] [INFO] Using worker: sync
+[2017-11-20 12:56:04 +0000] [9405] [INFO] Booting worker with pid: 9405
+[2017-11-20 12:56:04 +0000] [9406] [INFO] Booting worker with pid: 9406
+[2017-11-20 12:56:04 +0000] [9409] [INFO] Booting worker with pid: 9409
+[2017-11-20 12:56:04 +0000] [9396] [DEBUG] 3 workers
+[2017-11-20 12:56:25 +0000] [9406] [DEBUG] GET /
+[2017-11-20 12:56:30 +0000] [9409] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 12:56:35 +0000] [9406] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 12:56:35 +0000] [9405] [DEBUG] GET /logout/
+[2017-11-20 12:56:36 +0000] [9406] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-20 12:56:38 +0000] [9409] [DEBUG] GET /admin/
+[2017-11-20 12:56:38 +0000] [9406] [DEBUG] GET /admin/login/
+[2017-11-20 12:56:44 +0000] [9409] [DEBUG] POST /admin/login/
+[2017-11-20 12:56:44 +0000] [9406] [DEBUG] GET /admin/
+[2017-11-20 12:57:05 +0000] [9409] [DEBUG] GET /admin/auth/user/
+[2017-11-20 12:57:05 +0000] [9406] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 12:57:14 +0000] [9405] [DEBUG] GET /login/
+[2017-11-20 12:57:48 +0000] [9406] [DEBUG] POST /login/
+[2017-11-20 12:58:00 +0000] [9409] [DEBUG] POST /login/
+[2017-11-20 12:58:01 +0000] [9405] [DEBUG] GET /login
+[2017-11-20 12:58:59 +0000] [9406] [DEBUG] GET /admin/
+[2017-11-20 12:59:02 +0000] [9405] [DEBUG] GET /admin/auth/user/
+[2017-11-20 12:59:03 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 12:59:10 +0000] [9406] [DEBUG] GET /admin/logout/
+[2017-11-20 12:59:13 +0000] [9409] [DEBUG] GET /
+[2017-11-20 12:59:16 +0000] [9406] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 12:59:32 +0000] [9409] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 12:59:33 +0000] [9405] [DEBUG] GET /logout/
+[2017-11-20 12:59:42 +0000] [9409] [DEBUG] GET /admin/
+[2017-11-20 12:59:42 +0000] [9406] [DEBUG] GET /admin/login/
+[2017-11-20 12:59:47 +0000] [9409] [DEBUG] POST /admin/login/
+[2017-11-20 12:59:51 +0000] [9406] [DEBUG] POST /admin/login/
+[2017-11-20 12:59:51 +0000] [9405] [DEBUG] GET /admin/
+[2017-11-20 12:59:53 +0000] [9406] [DEBUG] GET /admin/auth/user/
+[2017-11-20 12:59:54 +0000] [9405] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:00 +0000] [9409] [DEBUG] GET /admin/
+[2017-11-20 13:00:05 +0000] [9405] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-20 13:00:05 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:10 +0000] [9406] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-20 13:00:10 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:16 +0000] [9405] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-20 13:00:16 +0000] [9409] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-20 13:00:17 +0000] [9405] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:21 +0000] [9406] [DEBUG] GET /admin/logout/
+[2017-11-20 13:00:24 +0000] [9405] [DEBUG] GET /
+[2017-11-20 13:00:26 +0000] [9406] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:00:31 +0000] [9405] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:00:32 +0000] [9409] [DEBUG] GET /logout/
+[2017-11-20 13:00:43 +0000] [9405] [DEBUG] GET /admin/
+[2017-11-20 13:00:43 +0000] [9406] [DEBUG] GET /admin/login/
+[2017-11-20 13:00:48 +0000] [9405] [DEBUG] POST /admin/login/
+[2017-11-20 13:00:48 +0000] [9409] [DEBUG] GET /admin/
+[2017-11-20 13:00:50 +0000] [9405] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-20 13:00:51 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:52 +0000] [9406] [DEBUG] GET /admin/persona/benefactorprofile/1/change/
+[2017-11-20 13:00:52 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:53 +0000] [9405] [DEBUG] GET /admin/persona/benefactorprofile/1/change
+[2017-11-20 13:00:54 +0000] [9406] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-20 13:00:55 +0000] [9405] [DEBUG] GET /admin/
+[2017-11-20 13:00:57 +0000] [9406] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-20 13:00:57 +0000] [9405] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:00:59 +0000] [9409] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-20 13:00:59 +0000] [9405] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:01:04 +0000] [9406] [DEBUG] POST /admin/persona/benefactors/1/change/
+[2017-11-20 13:01:04 +0000] [9405] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-20 13:01:04 +0000] [9406] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:01:10 +0000] [9409] [DEBUG] GET /admin/logout/
+[2017-11-20 13:01:10 +0000] [9406] [DEBUG] GET /admin/logout
+[2017-11-20 13:01:11 +0000] [9405] [DEBUG] GET /admin/
+[2017-11-20 13:01:11 +0000] [9406] [DEBUG] GET /admin/login/
+[2017-11-20 13:01:14 +0000] [9405] [DEBUG] GET /
+[2017-11-20 13:01:17 +0000] [9406] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:01:20 +0000] [9405] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:01:21 +0000] [9406] [DEBUG] GET /send_otp
+[2017-11-20 13:01:21 +0000] [9409] [DEBUG] GET /send_otp/
+[2017-11-20 13:01:22 +0000] [9406] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 13:01:35 +0000] [9405] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:02:25 +0000] [9406] [DEBUG] GET /profile/
+[2017-11-20 13:02:33 +0000] [9405] [DEBUG] GET /training/
+[2017-11-20 13:02:33 +0000] [9409] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-20 13:02:43 +0000] [9406] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:03:49 +0000] [9406] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:04:40 +0000] [9409] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:05:03 +0000] [9406] [DEBUG] POST /send_otp/
+[2017-11-20 13:05:03 +0000] [9405] [DEBUG] GET /profile/
+[2017-11-20 13:05:09 +0000] [9406] [DEBUG] GET /training/
+[2017-11-20 13:05:09 +0000] [9409] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-20 13:05:16 +0000] [9405] [DEBUG] GET /
+[2017-11-20 13:05:19 +0000] [9409] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:05:22 +0000] [9405] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:05:23 +0000] [9409] [DEBUG] GET /send_otp/
+[2017-11-20 13:05:23 +0000] [9405] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 13:05:33 +0000] [9406] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:05:49 +0000] [9405] [DEBUG] POST /send_otp/
+[2017-11-20 13:05:50 +0000] [9409] [DEBUG] GET /profile/
+[2017-11-20 13:05:53 +0000] [9406] [DEBUG] GET /training/
+[2017-11-20 13:05:53 +0000] [9405] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-20 13:25:00 +0000] [9406] [DEBUG] GET /
+[2017-11-20 13:25:05 +0000] [9405] [DEBUG] GET /admin/
+[2017-11-20 13:25:05 +0000] [9409] [DEBUG] GET /admin/login/
+[2017-11-20 13:25:11 +0000] [9405] [DEBUG] POST /admin/login/
+[2017-11-20 13:25:11 +0000] [9409] [DEBUG] GET /admin/
+[2017-11-20 13:25:13 +0000] [9405] [DEBUG] GET /admin/auth/user/
+[2017-11-20 13:25:13 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:25:15 +0000] [9406] [DEBUG] GET /admin/auth/user/4/change/
+[2017-11-20 13:25:16 +0000] [9409] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:25:23 +0000] [9405] [DEBUG] GET /admin/logout/
+[2017-11-20 13:25:28 +0000] [9409] [DEBUG] GET /login/
+[2017-11-20 13:25:40 +0000] [9405] [DEBUG] POST /login/
+[2017-11-20 13:44:18 +0000] [9396] [INFO] Handling signal: term
+[2017-11-20 13:44:18 +0000] [9409] [INFO] Worker exiting (pid: 9409)
+[2017-11-20 13:44:18 +0000] [9405] [INFO] Worker exiting (pid: 9405)
+[2017-11-20 13:44:18 +0000] [9406] [INFO] Worker exiting (pid: 9406)
+[2017-11-20 13:44:18 +0000] [9396] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-20 13:44:19 +0000] [9467] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f79f40b3668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f79f40b3398>
+  pre_fork: <function pre_fork at 0x7f79f40b3500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f79f40b3230>
+  pre_exec: <function pre_exec at 0x7f79f40b3c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f79f40b7488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f79f40b3d70>
+  post_request: <function post_request at 0x7f79f40b3e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f79f40b3938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f79f40b30c8>
+  post_worker_init: <function post_worker_init at 0x7f79f40b37d0>
+  child_exit: <function child_exit at 0x7f79f40b7050>
+  worker_exit: <function worker_exit at 0x7f79f40b71b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f79f40b3aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f79f40b7320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-20 13:44:19 +0000] [9467] [INFO] Starting gunicorn 19.7.1
+[2017-11-20 13:44:19 +0000] [9467] [DEBUG] Arbiter booted
+[2017-11-20 13:44:19 +0000] [9467] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (9467)
+[2017-11-20 13:44:19 +0000] [9467] [INFO] Using worker: sync
+[2017-11-20 13:44:19 +0000] [9476] [INFO] Booting worker with pid: 9476
+[2017-11-20 13:44:19 +0000] [9479] [INFO] Booting worker with pid: 9479
+[2017-11-20 13:44:19 +0000] [9480] [INFO] Booting worker with pid: 9480
+[2017-11-20 13:44:19 +0000] [9467] [DEBUG] 3 workers
+[2017-11-20 13:44:26 +0000] [9476] [DEBUG] GET /
+[2017-11-20 13:44:30 +0000] [9479] [DEBUG] GET /admin
+[2017-11-20 13:44:31 +0000] [9476] [DEBUG] GET /admin/
+[2017-11-20 13:44:31 +0000] [9479] [DEBUG] GET /admin/login/
+[2017-11-20 13:44:38 +0000] [9476] [DEBUG] POST /admin/login/
+[2017-11-20 13:44:39 +0000] [9480] [DEBUG] GET /admin/
+[2017-11-20 13:44:41 +0000] [9476] [DEBUG] GET /admin/auth/user/
+[2017-11-20 13:44:41 +0000] [9480] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:44:45 +0000] [9479] [DEBUG] GET /admin/auth/user/4/change/
+[2017-11-20 13:44:45 +0000] [9480] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:44:49 +0000] [9476] [DEBUG] GET /admin/auth/user/4/password/
+[2017-11-20 13:44:49 +0000] [9480] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:44:57 +0000] [9479] [DEBUG] POST /admin/auth/user/4/password/
+[2017-11-20 13:44:58 +0000] [9480] [DEBUG] GET /admin/auth/user/4/change/
+[2017-11-20 13:44:58 +0000] [9479] [DEBUG] GET /admin/jsi18n/
+[2017-11-20 13:45:12 +0000] [9476] [DEBUG] POST /login/
+[2017-11-20 13:45:12 +0000] [9479] [DEBUG] GET /send_otp
+[2017-11-20 13:45:12 +0000] [9480] [DEBUG] GET /send_otp/
+[2017-11-20 13:45:13 +0000] [9479] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 13:45:22 +0000] [9476] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:45:51 +0000] [9479] [DEBUG] POST /send_otp/
+[2017-11-20 13:45:51 +0000] [9480] [DEBUG] GET /profile/
+[2017-11-20 13:45:54 +0000] [9479] [DEBUG] GET /training/
+[2017-11-20 13:46:00 +0000] [9476] [DEBUG] GET /logout/
+[2017-11-20 13:46:04 +0000] [9479] [DEBUG] GET /
+[2017-11-20 13:46:06 +0000] [9476] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:46:11 +0000] [9480] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:46:12 +0000] [9476] [DEBUG] GET /send_otp/
+[2017-11-20 13:46:13 +0000] [9480] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 13:46:22 +0000] [9479] [DEBUG] POST /ajax_send_pin/
+[2017-11-20 13:46:40 +0000] [9480] [DEBUG] POST /send_otp/
+[2017-11-20 13:46:40 +0000] [9476] [DEBUG] GET /profile/
+[2017-11-20 13:46:47 +0000] [9479] [DEBUG] GET /training/
+[2017-11-20 13:46:47 +0000] [9480] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-20 13:50:45 +0000] [9476] [DEBUG] GET /
+[2017-11-20 13:50:47 +0000] [9480] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:50:50 +0000] [9479] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:50:51 +0000] [9480] [DEBUG] GET /logout/
+[2017-11-20 13:51:07 +0000] [9479] [DEBUG] GET /
+[2017-11-20 13:51:10 +0000] [9480] [DEBUG] GET /oauth/login/twitter/
+[2017-11-20 13:51:27 +0000] [9479] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-20 13:51:27 +0000] [9480] [DEBUG] GET /send_otp/
+[2017-11-20 13:51:28 +0000] [9479] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-20 17:49:44 +0000] [9476] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-20 17:49:48 +0000] [9479] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-21 00:55:38 +0000] [9480] [DEBUG] GET /
+[2017-11-21 01:26:01 +0000] [9479] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-21 01:26:04 +0000] [9480] [DEBUG] GET /
+[2017-11-21 03:14:15 +0000] [9480] [DEBUG] GET /send_otp/
+[2017-11-21 03:14:16 +0000] [9476] [DEBUG] GET /send_otp
+[2017-11-21 03:14:40 +0000] [9479] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-21 03:14:59 +0000] [9476] [DEBUG] GET /admin/
+[2017-11-21 03:14:59 +0000] [9480] [DEBUG] GET /admin/login/
+[2017-11-21 03:19:18 +0000] [9480] [DEBUG] GET /
+[2017-11-21 03:19:38 +0000] [9479] [DEBUG] GET /
+[2017-11-21 03:19:47 +0000] [9480] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 03:20:08 +0000] [9479] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-21 03:20:09 +0000] [9480] [DEBUG] GET /send_otp
+[2017-11-21 03:20:09 +0000] [9476] [DEBUG] GET /send_otp/
+[2017-11-21 03:20:09 +0000] [9480] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 03:20:22 +0000] [9479] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 03:20:29 +0000] [9476] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 03:27:25 +0000] [9479] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 03:27:26 +0000] [9480] [DEBUG] GET /ajax_send_pin
+[2017-11-21 03:28:49 +0000] [9476] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 03:30:49 +0000] [9479] [DEBUG] POST /send_otp/
+[2017-11-21 03:30:49 +0000] [9480] [DEBUG] GET /profile/
+[2017-11-21 03:31:29 +0000] [9476] [DEBUG] GET /training/
+[2017-11-21 03:31:29 +0000] [9479] [DEBUG] GET /accounts/login/
+Not Found: /accounts/login/
+[2017-11-21 03:31:46 +0000] [9476] [DEBUG] GET /
+[2017-11-21 03:31:52 +0000] [9479] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-21 03:32:26 +0000] [9480] [DEBUG] GET /oauth/complete/linkedin/
+[2017-11-21 03:32:27 +0000] [9479] [DEBUG] GET /send_otp
+[2017-11-21 03:32:28 +0000] [9476] [DEBUG] GET /send_otp/
+[2017-11-21 03:32:28 +0000] [9479] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 03:32:35 +0000] [9480] [DEBUG] POST /ajax_send_pin/
+Internal Server Error: /ajax_send_pin/
+Traceback (most recent call last):
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/persona/views.py", line 132, in ajax_send_pin
+    from_=settings.TWILIO_FROM_NUMBER,
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/twilio/rest/resources/messages.py", line 122, in create
+    return self.create_instance(kwargs)
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/twilio/rest/resources/base.py", line 365, in create_instance
+    data=transform_params(body))
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/twilio/rest/resources/base.py", line 200, in request
+    resp = make_twilio_request(method, uri, auth=self.auth, **kwargs)
+  File "/home/ubuntu/webapps/cryptocurrencies/env/local/lib/python2.7/site-packages/twilio/rest/resources/base.py", line 164, in make_twilio_request
+    uri=resp.url, msg=message, code=code)
+TwilioRestException: HTTP 400 error: The 'To' number 9446458699 is not a valid phone number.
+[2017-11-21 03:32:43 +0000] [9476] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 03:33:05 +0000] [9479] [DEBUG] POST /send_otp/
+[2017-11-21 03:33:05 +0000] [9480] [DEBUG] GET /profile/
+[2017-11-21 04:41:15 +0000] [9467] [INFO] Handling signal: term
+[2017-11-21 04:41:15 +0000] [9480] [INFO] Worker exiting (pid: 9480)
+[2017-11-21 04:41:15 +0000] [9476] [INFO] Worker exiting (pid: 9476)
+[2017-11-21 04:41:15 +0000] [9479] [INFO] Worker exiting (pid: 9479)
+[2017-11-21 04:41:15 +0000] [9467] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-21 04:41:16 +0000] [10647] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fddbd176668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fddbd176398>
+  pre_fork: <function pre_fork at 0x7fddbd176500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fddbd176230>
+  pre_exec: <function pre_exec at 0x7fddbd176c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7fddbd17a488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fddbd176d70>
+  post_request: <function post_request at 0x7fddbd176e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fddbd176938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7fddbd1760c8>
+  post_worker_init: <function post_worker_init at 0x7fddbd1767d0>
+  child_exit: <function child_exit at 0x7fddbd17a050>
+  worker_exit: <function worker_exit at 0x7fddbd17a1b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7fddbd176aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fddbd17a320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-21 04:41:16 +0000] [10647] [INFO] Starting gunicorn 19.7.1
+[2017-11-21 04:41:16 +0000] [10647] [DEBUG] Arbiter booted
+[2017-11-21 04:41:16 +0000] [10647] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (10647)
+[2017-11-21 04:41:16 +0000] [10647] [INFO] Using worker: sync
+[2017-11-21 04:41:16 +0000] [10656] [INFO] Booting worker with pid: 10656
+[2017-11-21 04:41:17 +0000] [10659] [INFO] Booting worker with pid: 10659
+[2017-11-21 04:41:17 +0000] [10662] [INFO] Booting worker with pid: 10662
+[2017-11-21 04:41:17 +0000] [10647] [DEBUG] 3 workers
+[2017-11-21 04:41:44 +0000] [10659] [DEBUG] GET /
+[2017-11-21 04:41:52 +0000] [10656] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 04:41:57 +0000] [10662] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-21 04:41:57 +0000] [10656] [DEBUG] GET /send_otp/
+[2017-11-21 04:41:58 +0000] [10662] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 04:42:05 +0000] [10659] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 04:42:25 +0000] [10662] [DEBUG] POST /send_otp/
+[2017-11-21 04:42:25 +0000] [10656] [DEBUG] GET /profile/
+[2017-11-21 04:42:28 +0000] [10662] [DEBUG] GET /training/
+[2017-11-21 04:44:36 +0000] [10662] [DEBUG] GET /
+[2017-11-21 04:44:42 +0000] [10659] [DEBUG] GET /training/
+[2017-11-21 04:44:42 +0000] [10656] [DEBUG] GET /
+[2017-11-21 04:54:26 +0000] [10662] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-21 04:54:30 +0000] [10656] [DEBUG] GET /
+[2017-11-21 05:08:56 +0000] [10656] [DEBUG] GET /
+[2017-11-21 05:09:27 +0000] [10659] [DEBUG] GET /admin/
+[2017-11-21 05:09:27 +0000] [10656] [DEBUG] GET /admin/login/
+[2017-11-21 05:09:29 +0000] [10659] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-21 05:09:45 +0000] [10662] [DEBUG] POST /admin/login/
+[2017-11-21 05:09:45 +0000] [10659] [DEBUG] GET /admin/
+[2017-11-21 05:15:27 +0000] [10659] [DEBUG] GET /admin/auth/user/
+[2017-11-21 05:15:27 +0000] [10662] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:17:05 +0000] [10656] [DEBUG] GET /admin/persona/trainingdata/11/change/
+[2017-11-21 05:17:06 +0000] [10662] [DEBUG] GET /admin/login/
+[2017-11-21 05:20:39 +0000] [10647] [INFO] Handling signal: term
+[2017-11-21 05:20:39 +0000] [10656] [INFO] Worker exiting (pid: 10656)
+[2017-11-21 05:20:39 +0000] [10659] [INFO] Worker exiting (pid: 10659)
+[2017-11-21 05:20:39 +0000] [10662] [INFO] Worker exiting (pid: 10662)
+[2017-11-21 05:20:39 +0000] [10647] [INFO] Shutting down: Master
+Starting cryptocurrency_app as ubuntu
+[2017-11-21 05:20:41 +0000] [10711] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f4470c41668>
+  errorlog: -
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 2
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f4470c41398>
+  pre_fork: <function pre_fork at 0x7f4470c41500>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 1000
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 3
+  proc_name: cryptocurrency_app
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f4470c41230>
+  pre_exec: <function pre_exec at 0x7f4470c41c08>
+  worker_tmp_dir: None
+  limit_request_fields: 100
+  pythonpath: None
+  on_exit: <function on_exit at 0x7f4470c45488>
+  config: None
+  logconfig: None
+  check_config: False
+  statsd_prefix: 
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  reload_engine: auto
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f4470c41d70>
+  post_request: <function post_request at 0x7f4470c41e60>
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f4470c41938>
+  raw_paste_global_conf: []
+  threads: 1
+  max_requests: 0
+  chdir: /home/ubuntu/webapps/cryptocurrencies/cryptocurrency
+  daemon: False
+  user: 1000
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  on_starting: <function on_starting at 0x7f4470c410c8>
+  post_worker_init: <function post_worker_init at 0x7f4470c417d0>
+  child_exit: <function child_exit at 0x7f4470c45050>
+  worker_exit: <function worker_exit at 0x7f4470c451b8>
+  paste: None
+  default_proc_name: spoutcoin.wsgi:application
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  ciphers: TLSv1
+  worker_abort: <function worker_abort at 0x7f4470c41aa0>
+  loglevel: debug
+  bind: ['unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock']
+  raw_env: []
+  initgroups: False
+  capture_output: False
+  reload: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f4470c45320>
+  timeout: 30
+  keyfile: None
+  ca_certs: None
+  tmp_upload_dir: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+[2017-11-21 05:20:41 +0000] [10711] [INFO] Starting gunicorn 19.7.1
+[2017-11-21 05:20:41 +0000] [10711] [DEBUG] Arbiter booted
+[2017-11-21 05:20:41 +0000] [10711] [INFO] Listening at: unix:/home/ubuntu/webapps/cryptocurrencies/cryptocurrency/run/gunicorn.sock (10711)
+[2017-11-21 05:20:41 +0000] [10711] [INFO] Using worker: sync
+[2017-11-21 05:20:41 +0000] [10720] [INFO] Booting worker with pid: 10720
+[2017-11-21 05:20:41 +0000] [10723] [INFO] Booting worker with pid: 10723
+[2017-11-21 05:20:41 +0000] [10724] [INFO] Booting worker with pid: 10724
+[2017-11-21 05:20:41 +0000] [10711] [DEBUG] 3 workers
+[2017-11-21 05:21:05 +0000] [10720] [DEBUG] GET /
+[2017-11-21 05:21:08 +0000] [10724] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 05:22:30 +0000] [10723] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-21 05:22:31 +0000] [10724] [DEBUG] GET /send_otp/
+[2017-11-21 05:22:32 +0000] [10723] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 05:22:38 +0000] [10720] [DEBUG] GET /admin
+[2017-11-21 05:22:38 +0000] [10724] [DEBUG] GET /admin/
+[2017-11-21 05:22:39 +0000] [10720] [DEBUG] GET /admin/login/
+[2017-11-21 05:23:03 +0000] [10724] [DEBUG] POST /admin/login/
+[2017-11-21 05:23:04 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 05:23:07 +0000] [10724] [DEBUG] GET /admin/auth/user/
+[2017-11-21 05:23:07 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:22 +0000] [10720] [DEBUG] POST /admin/auth/user/
+[2017-11-21 05:23:24 +0000] [10723] [DEBUG] POST /admin/auth/user/
+[2017-11-21 05:23:24 +0000] [10720] [DEBUG] GET /admin/auth/user/
+[2017-11-21 05:23:25 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:26 +0000] [10724] [DEBUG] GET /admin/
+[2017-11-21 05:23:29 +0000] [10723] [DEBUG] GET /admin/social_django/usersocialauth/
+[2017-11-21 05:23:29 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:32 +0000] [10720] [DEBUG] GET /admin/
+[2017-11-21 05:23:35 +0000] [10724] [DEBUG] GET /admin/social_django/association/
+[2017-11-21 05:23:35 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:36 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 05:23:40 +0000] [10720] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:23:41 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:41 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-21 05:23:42 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:23:50 +0000] [10720] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:23:51 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 05:23:55 +0000] [10720] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 05:23:55 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:24:02 +0000] [10724] [DEBUG] POST /admin/persona/benefactor/
+[2017-11-21 05:24:04 +0000] [10723] [DEBUG] POST /admin/persona/benefactor/
+[2017-11-21 05:24:04 +0000] [10724] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 05:24:04 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:24:06 +0000] [10720] [DEBUG] GET /admin/persona/
+[2017-11-21 05:24:09 +0000] [10723] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:24:10 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:24:11 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-21 05:24:11 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:24:47 +0000] [10724] [DEBUG] GET /admin/
+[2017-11-21 05:26:27 +0000] [10723] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-21 05:26:28 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:26:28 +0000] [10724] [DEBUG] GET /admin/persona/benefactorprofile
+[2017-11-21 05:26:31 +0000] [10723] [DEBUG] GET /admin/persona/benefactorprofile/add/
+[2017-11-21 05:26:31 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:26:38 +0000] [10720] [DEBUG] GET /admin/persona/
+[2017-11-21 05:26:40 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:26:40 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:26:41 +0000] [10723] [DEBUG] GET /admin/jsi18n
+[2017-11-21 05:26:42 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-21 05:26:42 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:54:38 +0000] [10723] [DEBUG] GET /
+[2017-11-21 05:54:47 +0000] [10724] [DEBUG] GET /
+[2017-11-21 05:54:51 +0000] [10720] [DEBUG] GET /admin/
+[2017-11-21 05:54:51 +0000] [10723] [DEBUG] GET /admin/login/
+[2017-11-21 05:54:59 +0000] [10720] [DEBUG] POST /admin/login/
+[2017-11-21 05:54:59 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 05:55:02 +0000] [10720] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 05:55:02 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:06 +0000] [10723] [DEBUG] GET /admin/persona/benefactor/add/
+[2017-11-21 05:55:06 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:14 +0000] [10720] [DEBUG] POST /admin/persona/benefactor/add/
+[2017-11-21 05:55:14 +0000] [10724] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 05:55:14 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:18 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 05:55:20 +0000] [10720] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:55:20 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:22 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-21 05:55:22 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:26 +0000] [10720] [DEBUG] POST /admin/persona/benefactors/1/change/
+[2017-11-21 05:55:27 +0000] [10723] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 05:55:27 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 05:55:33 +0000] [10724] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 05:55:48 +0000] [10723] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-21 05:55:49 +0000] [10724] [DEBUG] GET /send_otp/
+[2017-11-21 05:55:50 +0000] [10723] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 05:55:57 +0000] [10720] [DEBUG] POST /ajax_send_pin/
+[2017-11-21 05:56:30 +0000] [10723] [DEBUG] POST /send_otp/
+[2017-11-21 05:56:30 +0000] [10720] [DEBUG] GET /profile/
+[2017-11-21 05:56:33 +0000] [10723] [DEBUG] GET /training/
+[2017-11-21 05:56:48 +0000] [10720] [DEBUG] POST /training/
+[2017-11-21 05:58:19 +0000] [10723] [DEBUG] GET /training/
+[2017-11-21 05:58:20 +0000] [10724] [DEBUG] GET /profile/
+[2017-11-21 05:58:22 +0000] [10723] [DEBUG] GET /logout/
+[2017-11-21 05:58:22 +0000] [10720] [DEBUG] GET /
+[2017-11-21 05:58:25 +0000] [10723] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-21 06:22:21 +0000] [10723] [DEBUG] GET /
+[2017-11-21 08:16:19 +0000] [10720] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-21 08:16:22 +0000] [10723] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 10:18:35 +0000] [10724] [DEBUG] GET /
+[2017-11-21 10:20:15 +0000] [10720] [DEBUG] GET /admin/auth/
+[2017-11-21 10:20:18 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 10:20:32 +0000] [10724] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 10:20:32 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:35 +0000] [10723] [DEBUG] GET /admin/persona/benefactor/6/change/
+[2017-11-21 10:20:36 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:40 +0000] [10724] [DEBUG] GET /admin/persona/benefactor/
+[2017-11-21 10:20:41 +0000] [10720] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:43 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 10:20:46 +0000] [10720] [DEBUG] GET /admin/persona/benefactorprofile/
+[2017-11-21 10:20:48 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:51 +0000] [10724] [DEBUG] GET /admin/
+[2017-11-21 10:20:53 +0000] [10723] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-21 10:20:53 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:55 +0000] [10720] [DEBUG] GET /admin/persona/benefactors/1/change/
+[2017-11-21 10:20:55 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:20:59 +0000] [10723] [DEBUG] GET /admin/
+[2017-11-21 10:21:03 +0000] [10724] [DEBUG] GET /admin/persona/userstatus/
+[2017-11-21 10:21:03 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:21:05 +0000] [10720] [DEBUG] GET /admin/persona/userstatus/1/change/
+[2017-11-21 10:21:05 +0000] [10723] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:21:21 +0000] [10724] [DEBUG] GET /admin/
+[2017-11-21 10:21:24 +0000] [10723] [DEBUG] GET /admin/auth/user/
+[2017-11-21 10:21:24 +0000] [10724] [DEBUG] GET /admin/jsi18n/
+[2017-11-21 10:21:41 +0000] [10720] [DEBUG] GET /admin/
+[2017-11-21 10:25:44 +0000] [10720] [DEBUG] GET /
+[2017-11-21 10:26:28 +0000] [10724] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 10:27:20 +0000] [10720] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-21 10:27:21 +0000] [10724] [DEBUG] GET /
+[2017-11-21 10:27:28 +0000] [10720] [DEBUG] GET /oauth/login/twitter/
+[2017-11-21 10:28:08 +0000] [10724] [DEBUG] GET /oauth/complete/twitter/
+[2017-11-21 10:28:09 +0000] [10720] [DEBUG] GET /send_otp/
+[2017-11-21 10:28:10 +0000] [10724] [DEBUG] GET /send_otp/assets/img/bg-girl.jpg
+Not Found: /send_otp/assets/img/bg-girl.jpg
+[2017-11-21 10:30:22 +0000] [10724] [DEBUG] GET /
+[2017-11-21 10:30:25 +0000] [10723] [DEBUG] GET /oauth/login/linkedin/
+[2017-11-21 10:51:29 +0000] [10723] [DEBUG] GET /
+[2017-11-21 12:20:03 +0000] [10720] [DEBUG] GET /
+[2017-11-21 13:10:18 +0000] [10724] [DEBUG] GET /
+[2017-11-21 17:26:05 +0000] [10724] [DEBUG] GET /
+[2017-11-21 19:32:04 +0000] [10724] [DEBUG] GET /
+[2017-11-21 22:09:20 +0000] [10724] [DEBUG] GET /
+[2017-11-22 03:13:16 +0000] [10724] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-22 03:13:16 +0000] [10723] [DEBUG] GET /admin/persona/benefactors
+[2017-11-22 03:13:17 +0000] [10720] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-22 03:54:23 +0000] [10720] [DEBUG] GET /
+[2017-11-22 05:40:05 +0000] [10720] [DEBUG] GET /
+[2017-11-22 05:54:29 +0000] [10723] [DEBUG] GET /admin/persona/benefactors/
+[2017-11-22 05:54:30 +0000] [10724] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-22 12:48:13 +0000] [10724] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-22 13:20:28 +0000] [10723] [DEBUG] GET /robots.txt
+Not Found: /robots.txt
+[2017-11-22 13:20:28 +0000] [10724] [DEBUG] GET /
+[2017-11-22 13:20:31 +0000] [10723] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico
+[2017-11-22 13:22:30 +0000] [10724] [DEBUG] GET /favicon.ico
+Not Found: /favicon.ico

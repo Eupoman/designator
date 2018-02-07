@@ -1,4 +1,4 @@
-# designator
+# Spoutcoin
 The project is for a website that allows the user to designate benefactors to receive their cryptocurrency (Bitcoin, Ethereum, Monero, Litecoin, etc) on death. For the purposes of this MVP, I created a fake persona to act as the user.
 
 The fake persona user has Twitter, Facebook and Reddit accounts. If the user has not posted with X days, the system designates this user as 'dead' and notifies the benefactors. These benefactors have a combination of Twitter, LinkedIn, and/or email accounts assigned to them -- they are notified through one or more of these services that the persona has died and they are eligible to receive funds and directed to login to the website.
